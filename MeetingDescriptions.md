@@ -40,14 +40,14 @@ By the end of this meeting, interns should have a solid plan in place for work f
 The purpose of this meeting is to explain the many facets of the AUTOHACK IDLE codebase at a high level. Up to this point, the interns may have been able to explore the codebase (and should have even updated it), but this will provide more context and background. Hopefully at this point they also have a relative familiarity with the technologies used in the project.
 
 ## UX Reviews
->6/26 from 11am-12pm
+>6/26 from 11am-12pm  
 >7/23 from 1-2pm
 
 These meetings are meant to give interns an opportunity to think critically about the user experience of the application they are building. During the first instance, they should learn a bit about UX and its importance. From there, they should review the current state of the app, and discuss potential improvements (including wireframing new features if needed).
 
 ## Playtesting
->7/2 from 2-3pm
->7/17 from 11am-12pm
+>7/2 from 2-3pm  
+>7/17 from 11am-12pm  
 >7/31 from 11am-12pm
 
 These meetings are a chance for the interns to play the game, and see how it feels in its current state. They should take note of the overall playing experience, look out for bugs, and discuss potential improvements.
@@ -62,7 +62,7 @@ This meeting will allow interns to consider the branding implications of the gam
 For this project, the goal of a solid brand identity is to ensure a cohesive gameplay experience and presence. This identity can help guide decision-making around the features, theming, and overall direction of the game.
 
 ## Board Maintenance
->7/10 from 2-3pm
+>7/10 from 2-3pm  
 >7/24 from 11am-12pm
 
 These meetings allow interns to clean up the GitHub Issues board. They should prune out-of-date issues, ensure all completed issues are moved to the proper place, organize the backlog in priority order, and do anything else to make the board nice.

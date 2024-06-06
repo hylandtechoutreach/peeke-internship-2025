@@ -48,26 +48,32 @@ Facilitators provide supervision, non-technical guidance, and moral support to t
 - Sit in close proximity to the intern team
 - Provide support for work experience (e.g., creating IS Work orders, encouraging camaraderie)
 
-Overall, facilitators help provide a welcoming, meaningful work experience for the interns beyond the technical side. However, nothing they do is _mandatory_ unless they are assigned something in particular.
+Overall, facilitators help provide a welcoming, meaningful work experience for the interns beyond the technical side. However, **nothing they do is _mandatory_ unless they are assigned something in particular.**
 
 ## Role Assignments
 For Summer 2024, these are the specific people who may be helping in each capacity.
 
 ### Lead
-Joseph Maxwell (through July 12)  
-Jacob Gusching (after July 12)
+Leads for this project will be:
 
->_During the week of July 7, leadership will be transitioned from Joseph to Jacob_
+- Joseph Maxwell (through July 12)
+- Jacob Gusching (after July 12)
+
+>_Note: During the week of July 7, leadership will be transitioned from Joseph to Jacob_
 
 ### Mentor
-Jacob Gusching (before July 12)
-Frank Menoni  
-J Artis
+Mentors for this project will be:
+
+- Jacob Gusching (before July 12)
+- Frank Menoni
+- J Artis
 
 ### Facilitator
-Caitlin Nowlin  
-Emi Stafford  
-Glenda Lembicz
+Facilitators for this project will be:
+
+- Caitlin Nowlin  
+- Emi Stafford  
+- Glenda Lembicz
 
 ## Daily Activities
 Every day the team is working, each role will participate in some key activities to help ensure the internship is a positive experience.

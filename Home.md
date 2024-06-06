@@ -1,5 +1,5 @@
 # Hyland - HS App Internship 2024
-Welcome to the HS App Internship at Hyland!
+Welcome to the HS App Internship at Hyland! 🌞😎⛱🌅
 
 ## Basic Rundown
 Check out the [basic rundown](BasicRundown.md) of the internship.

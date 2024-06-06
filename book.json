@@ -1,8 +1,8 @@
 {
   "structure": {
-    "readme": "StudentDesc.md",
+    "readme": "Home.md",
     "summary": "SUMMARY.md"
   },
-  "title": "Site Title",
+  "title": "App Internship 2024",
   "plugins": ["toggle-chapters"]
 }

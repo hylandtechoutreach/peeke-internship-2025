@@ -1,2 +1,4 @@
-- [Home](StudentDesc.md)
-- [Follow-Along Activity](FollowAlong.md)
+- [App Internship 2024](Home.md)
+- [Basic Rundown](BasicRundown.md)
+- [Summer Schedule](SummerSchedule.md)
+  - [Meeting Descriptions](MeetingDescriptions.md)

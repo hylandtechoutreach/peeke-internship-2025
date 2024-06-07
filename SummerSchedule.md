@@ -1,8 +1,10 @@
 # Summer Schedule
 Here are the scheduled meetings for the summer. [Click here for descriptions of each meeting and more information about each of their respective purposes.](MeetingDescriptions.md)
 
-#### Note: Stand-Up Meetings
-Stand-up meetings will take place every Tuesday, Wednesday, and Thursday at 9:30am throughout the summer.
+#### Note: General Working Hours
+The hope is that each intern will be generally available to work Tuesdays, Wednesdays, and Thursdays from 9am-4pm throughout the summer.
+
+Each working day, there will be a stand-up meeting starting at 9:30am.
 
 ## Week 1: 6/16-6/22
 The goal for this week is for each intern to complete the [First Week Checklist](AppInternsFirstWeekChecklist.pdf)!

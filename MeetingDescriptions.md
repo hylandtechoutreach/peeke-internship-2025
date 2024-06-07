@@ -8,7 +8,7 @@ These meetings, occurring every Tuesday, Wednesday, and Thursday at 9:30am, serv
 - What they plan to do today
 - What roadblocks they currently face or questions they currently have
 
-## Bi-Weekly Retrospective/Demo/Planning Meetings
+## Bi-Weekly Checkpoint Meetings
 These meetings, occurring every other Thursday from 3-4pm, serve as a checkpoint between the two-week blocks known as sprints. There are three parts crammed into one meeting:
 
 ### Retrospective

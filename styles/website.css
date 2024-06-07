@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+  font-family: "Director";
+  src: url("../Assets/Director-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Inter", "Helvetica", "Arial", "sans-serif";
+}
+
+h4#hyland-peeke-internship {
+  margin-bottom: 0px;
+}
+
+h1#app-project-2024 {
+  margin-top: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Director", "SimSun", "monospace";
+}
+
 h2 {
   border-bottom: 1px solid #ddd;
 }

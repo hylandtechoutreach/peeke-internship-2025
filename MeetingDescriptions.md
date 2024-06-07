@@ -35,7 +35,7 @@ This meeting is intended to introduce the AUTOHACK IDLE project as a whole, as w
 By the end of this meeting, interns should have a solid plan in place for work for the rest of the day and the next day as well.
 
 ## Game Design Discussion
->6/29 from 11am-12pm
+>6/20 from 11am-12pm
 
 This meeting will give the team a chance to talk through the overall plan for the design of the game. Hopefully, there will be a general idea of the featureset and gameplay by this point - but the interns will have the opportunity to influence the ultimate direction of the project.
 

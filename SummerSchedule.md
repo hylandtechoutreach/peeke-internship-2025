@@ -46,7 +46,7 @@ The goal for this week is to continue development.
 - Thursday, 7/25: Checkpoint 3-4pm
 
 ## Week 7: 7/28-8/3*
-The goal for this week is to continue development, and start preparing for the final demo.
+The goal for this week is to continue development, and start preparing for the final demo. Based on scheduling, it may be necessary for the final presentation to take place during this week.
 
 - Thursday, 8/1: Playtesting 11am-12pm
 
@@ -56,10 +56,7 @@ The goal for this week is continue development.
 - Thursday, 8/8: Checkpoint 3-4pm
 
 ## Week 9: 8/11-8/17*
-The goal for this week, depending on school schedules, is to finish the internship strong.
-
-## Week 10: 8/18-8/24
-Depending on school schedules, there may be one last week before the end of the summer - if the final demo has not happened, this will be a good time for that. Otherwise, it could be an opportunity for interns to get a few more hours. Or, if all the interns have reached their work quota, this week may not contain anything at all!
+The goal for this week is to finish the internship strong. Hopefully it will be possible to assemble the whole team for a final presentation during this week.
 
 ## *Lead Adjustment
 Between 7/14 and 8/17, Joseph will be out of the office, and Jacob will take over as project lead.

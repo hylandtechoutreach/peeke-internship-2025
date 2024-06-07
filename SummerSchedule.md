@@ -9,6 +9,7 @@ The goal for this week is for each intern to complete the [First Week Checklist]
 
 - Tuesday, 6/18: First day!
 - Wednesday, 6/19: Project Introduction 10:30am-12pm
+- Thursday, 6/20: Game Design Discussion 11am-12pm
 
 ## Week 2: 6/23-6/29
 The goal for this week is for development to begin in earnest. Each intern should try to create at least one new issue, should complete at least one issue, and should approve a pull request from a team member.

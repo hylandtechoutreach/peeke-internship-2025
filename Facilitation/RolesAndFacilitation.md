@@ -24,6 +24,7 @@ This includes:
 - Being "on-call" for the interns during their working hours
 - Reaching out to other Hylanders for coverage when needed
 - Calling ad-hoc meetings with the team as needed
+- Tracking intern hours
 - Performing individual check-ins with each intern (not one-on-one, need another adult)
 
 Overall, the lead is the primary point person for the project.
@@ -122,6 +123,7 @@ The lead will:
   - Each plan should be effectively communicated to the team
 - Maintain the schedule of intern working hours on a per-week basis
   - Check with each intern, make sure they provide up-to-date availability
+  - Track hours on timesheet
 - Welcome interns on their first day of the week
 - Bid a fond farewell to interns on their last day of the week
 - Try to ensure a successful build by the end of each week

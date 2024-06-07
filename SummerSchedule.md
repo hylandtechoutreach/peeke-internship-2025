@@ -30,28 +30,28 @@ The goal for this week is for the team to continue their development under Jacob
 
 - Tuesday, 7/9: Branding Discussion 1-2pm
 - Wednesday, 7/10: Board Maintenance 2-3pm
-- Thursday, 7/11: Midsummer Demo
+- Thursday, 7/11: Midsummer Demo 3-4pm
 
 ## Week 5: 7/14-7/20*
 The goal for this week is to continue development, with sights set on the end of the internship.
 
 - Tuesday, 7/16: H2 Planning 1-2:30pm
-- Wednesday, 7/17: Playtesting 11am-12pm
+- Thursday, 7/18: Playtesting 11am-12pm
 
 ## Week 6: 7/21-7/27*
 The goal for this week is to continue development.
 
-- Tuesday, 7/23: UX Review 1-2pm
-- Wednesday, 7/24: Board Maintenance 11am-12pm
+- Tuesday, 7/23: Board Maintenance 1-2pm
+- Wednesday, 7/24: UX Review 11am-12pm
 - Thursday, 7/25: Checkpoint 3-4pm
 
 ## Week 7: 7/28-8/3*
-The goal for this week is to continue development.
+The goal for this week is to continue development, and start preparing for the final demo.
 
-- Wednesday, 7/31: Playtesting 11am-12pm
+- Thursday, 8/1: Playtesting 11am-12pm
 
 ## Week 8: 8/4-8/10*
-The goal for this week is continue development, and start planning for the final demo.
+The goal for this week is continue development.
 
 - Thursday, 8/8: Checkpoint 3-4pm
 

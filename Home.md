@@ -2,11 +2,11 @@
 # App Project 2024
 Welcome to your summer at Hyland 😎🌞🌅🌴🌊
 
-## Getting Started
-If you just got here, it's time to [get started](GettingStarted.md).
+## Internship Overview
+See what this internship is [all about](InternshipOverview.md).
 
 ## Project Information: AUTOHACK IDLE
-Find out more about what you'll be developing this summer - [an incremental game for lazy coders](ProjectInformation.md).
+Find out more about what this summer's project - [an incremental game for lazy coders](ProjectInformation.md).
 
 ## Summer Schedule
 Take a look at [what's on deck](SummerSchedule.md) for this summer, and [dig deeper](MeetingDescriptions.md) into what each meeting will entail.

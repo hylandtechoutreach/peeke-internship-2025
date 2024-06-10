@@ -4,6 +4,7 @@
 - [Summer Schedule](SummerSchedule.md)
   - [Meeting Descriptions](MeetingDescriptions.md)
 - [Environment Setup](EnvironmentSetup.md)
+  - [MongoDB Atlas Setup](MongoAtlasSetup.md)
 - [Learning Paths](LearningPaths.md)
   - [Dev Tools](DevTools.md)
 - [Fun Things](FunThings.md)

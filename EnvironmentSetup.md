@@ -45,20 +45,28 @@ npm install
 ```
 >Install the backend dependencies - this may take a while
 
+<br>
+
 ```bash
 cd frontend
 ```
 >**C**hange to the frontend **D**irectory
+
+<br>
 
 ```bash
 npm install
 ```
 >Install frontend dependencies - this may take a while
 
+<br>
+
 ```bash
 cd ..
 ```
 >**C**hange back to the root **D**irectory
+
+<br>
 
 Now, the app should be ready to run!
 

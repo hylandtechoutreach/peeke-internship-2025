@@ -314,7 +314,106 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="learning-paths">Learning Paths</h1>
-<p>Resources coming soon!</p>
+<p>Regardless of your current experience level, you will be able to build the skills you need to contribute successfully to this project. This page contains some helpful resources you can use to build your own learning path.</p>
+<p>Note that it is not necessary to have a full grasp of all of these concepts to start developing. In fact, even the architect of this project (aka the person writing this, aka Joseph) is nowhere near an expert on any of this! It&apos;s more about building a product and learning as you go.</p>
+<h4 id="learning-checklist">Learning Checklist</h4>
+<p>Check off these items as you complete them, or if you already have sufficient knowledge:</p>
+<ul style="list-style-type: none">
+<input type="checkbox" id="js"> <a href="https://javascript.info/" target="_blank">JavaScript Tutorial</a><br>
+<input type="checkbox" id="ts"> <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" target="_blank">TypeScript Introduction</a><br>
+<input type="checkbox" id="ts-hb"> <a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">TypeScript Handbook</a><br>
+<input type="checkbox" id="csa"> <a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model" target="_blank">Client-Server Architecture</a><br>
+<input type="checkbox" id="term"> <a href="http://www.mprat.org/Terminus/" target="_blank">Terminal</a><br>
+<input type="checkbox" id="exp"> <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs" target="_blank">Express with Node.js</a><br>
+<input type="checkbox" id="mdb"> <a href="">MongoDB</a><br>
+<input type="checkbox" id="mgs"> <a href="">Mongoose</a><br>
+<input type="checkbox" id="rttt"> <a href="https://www.mongodb.com/docs/manual/introduction/" target="_blank">React: Tic-Tac-Toe</a><br>
+<input type="checkbox" id="rfull"> <a href="https://react.dev/learn/describing-the-ui" target="_blank">React: Full Introduction</a><br>
+<input type="checkbox" id="ph"> <a href="https://phaser.io/tutorials/making-your-first-phaser-3-game/part1" target="_blank">Phaser Introduction</a><br>
+<input type="checkbox" id="lgb"> <a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a><br>
+</ul>
+
+<script>
+  document.querySelectorAll("input").forEach(inputElement => {
+    const elementId = `${inputElement.id}`;
+
+    inputElement.checked = localStorage.getItem(elementId) === 'checked';
+    inputElement.onchange = e => {
+      if (e.target.checked) {
+        localStorage.setItem(elementId, 'checked');
+      } else {
+          localStorage.setItem(elementId, 'not-checked');
+      }
+    };
+  });
+</script>
+
+<p>More information about these resources is available below.</p>
+<h2 id="javascript--typescript">JavaScript &amp; TypeScript</h2>
+<p>The most important building block for this entire project is JavaScript. The project is written in TypeScript, but most of it looks like JavaScript.</p>
+<ul>
+<li>Fill in any knowledge gaps with the <a href="https://javascript.info/" target="_blank"><code>javascript.info</code> JavaScript Tutorial</a></li>
+<li>Learn a bit about TypeScript with <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" target="_blank">this quick guide</a></li>
+<li>Dig deeper into TypeScript with <a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">this handbook</a></li>
+</ul>
+<p>If you are comfortable with JavaScript, you should be good to go. You can use TypeScript to your advantage, but it is not necessary for all development; simply writing JavaScript code in <strong>.ts</strong> files should almost always be fine.</p>
+<h2 id="client-server-architecture">Client-Server Architecture</h2>
+<p>It will be helpful to recognize the basic parts of a full-stack web application:</p>
+<ul>
+<li><strong>backend</strong>: the server - what happens behind the scenes (Node.js for this project)</li>
+<li><strong>frontend</strong>: the client - what the user sees (React for this project)</li>
+<li><strong>database</strong>: the storage location for all information (MongoDB for this project)</li>
+<li><strong>communication layer</strong>: how the client and server communicate (HTTP for this project)</li>
+</ul>
+<p><a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model" target="_blank">Click here for a rich </a></p>
+<h2 id="terminal--command-line">Terminal / Command Line</h2>
+<p>Using the command line is a valuable skill for software development, and can greatly enhance the development process.</p>
+<p><a href="http://www.mprat.org/Terminus/" target="_blank">Click here to practice using the terminal by playing this text-based game.</a></p>
+<h2 id="backend-server-nodejs-and-express">Backend Server: Node.js and Express</h2>
+<p>If you&apos;ve only used JavaScript to run code in a browser, it might be a little weird to see it run in a terminal. <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs" target="_blank">This MDN tutorial</a> walks through the concepts behind the Express framework in great detail. Note that some prerequisite knowledge is required, linked here:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side" target="_blank">Server-side website programming</a><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps" target="_blank">First Steps</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview" target="_blank">Client-Server Overview</a></li>
+</ul>
+</li>
+</ul>
+<p>After ensuring you have the fundamental knowledge, you&apos;re ready to get into Express.</p>
+<h2 id="backend-database-mongodb-and-mongoose">Backend Database: MongoDB and Mongoose</h2>
+<p>The most crucial feature of the application&apos;s backend server is its ability to connect to the database. Specifically, interfacing with the MongoDB database using Mongoose. <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose" target="_blank">Part of the Express tutorial</a> covers this topic. Additionally, there are some good learning resources available from MongoDB:</p>
+<ul>
+<li><a href="https://www.mongodb.com/docs/manual/introduction/" target="_blank">Introduction to MongoDB</a></li>
+<li><a href="https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/" target="_blank">Getting Started with MongoDB and Mongoose</a></li>
+</ul>
+<h2 id="frontend-component-framework-react">Frontend Component Framework: React</h2>
+<p>React is an incredibly powerful component-based framework for the web. Here are some helpful ways to learn React, with varying commitment levels:</p>
+<ul>
+<li><a href="https://react.dev/learn/tutorial-tic-tac-toe" target="_blank">Tic-Tac-Toe Tu-To-Rial</a></li>
+<li><a href="https://react.dev/learn/thinking-in-react" target="_blank">React Mindset</a></li>
+<li><a href="https://react.dev/learn/describing-the-ui" target="_blank">Full Guide</a></li>
+<li><a href="https://react.dev/learn/manipulating-the-dom-with-refs" target="_blank">Refs in React</a></li>
+<li><a href="https://www.youtube.com/watch?v=-vw6uG1JSEA" target="_blank"><code>forwardRef</code> in React</a></li>
+</ul>
+<h3 id="react-redux">React Redux</h3>
+<p>The application also uses React Redux to store state. It can be helpful to learn a bit about this topic as well.</p>
+<ul>
+<li><a href="https://redux.js.org/tutorials/essentials/part-1-overview-concepts" target="_blank">Redux Overview</a></li>
+<li><a href="https://react-redux.js.org/tutorials/typescript-quick-start" target="_blank">Quick Start with React/TypeScript</a></li>
+</ul>
+<h2 id="frontend-game-development-phaser">Frontend Game Development: Phaser</h2>
+<p>In addition to React, the frontend will use the Phaser game development framework. There is a complete <a href="https://phaser.io/learn" target="_blank">compendium of learning resources</a> available</p>
+<ul>
+<li><a href="https://phaser.io/tutorials/making-your-first-phaser-3-game/part1" target="_blank">Making a Game</a></li>
+<li><a href="https://labs.phaser.io/" target="_blank">Examples</a></li>
+<li><a href="https://phaser.io/news/2021/07/an-architecture-for-phaser-js-+-redux" target="_blank">Phaser with Redux</a></li>
+</ul>
+<h2 id="version-control-with-git">Version Control with Git</h2>
+<p>Though not directly related to coding, version control is a huge part of software development. Learn a bit about Git and GitHub before diving into using them. This project will use <a href="https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development" target="_blank">trunk-based development</a>, which means team members will create small feature branches when they develop, and then merge them into the <strong>main</strong> branch as often as possible.</p>
+<ul>
+<li><a href="https://hylandtechclub.com/capstone/GitHubLesson/StudentDesc.html" target="_blank">Workshop Lesson</a></li>
+<li><a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a></li>
+</ul>
 
                                 
                                 </section>
@@ -358,7 +457,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Learning Paths","level":"1.5","depth":1,"next":{"title":"Dev Tools","level":"1.5.1","depth":2,"path":"DevTools.md","ref":"DevTools.md","articles":[]},"previous":{"title":"MongoDB Atlas Setup","level":"1.4.1","depth":2,"path":"MongoAtlasSetup.md","ref":"MongoAtlasSetup.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"App Internship 2024","gitbook":"*"},"file":{"path":"LearningPaths.md","mtime":"2024-06-10T17:20:53.049Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-10T17:21:21.219Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Learning Paths","level":"1.5","depth":1,"next":{"title":"Dev Tools","level":"1.5.1","depth":2,"path":"DevTools.md","ref":"DevTools.md","articles":[]},"previous":{"title":"MongoDB Atlas Setup","level":"1.4.1","depth":2,"path":"MongoAtlasSetup.md","ref":"MongoAtlasSetup.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"App Internship 2024","gitbook":"*"},"file":{"path":"LearningPaths.md","mtime":"2024-06-10T18:26:02.316Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-10T18:26:32.076Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -49,9 +49,11 @@ There will be several opportunities for creativity during this project. Many asp
 Ultimately, the vision for the game will be determined by the intern team.
 
 ## GitHub
-The codebase is stored in this GitHub Repository: [https://github.com/hto-projects/autohack-idle](https://github.com/hto-projects/autohack-idle)
+The codebase is stored in this GitHub Repository:  
+[https://github.com/hto-projects/autohack-idle](https://github.com/hto-projects/autohack-idle)
 
-Issues will be tracked in this GitHub Project: [https://github.com/orgs/hto-projects/projects/5/views/1](https://github.com/orgs/hto-projects/projects/5/views/1)
+Issues will be tracked in this GitHub Project:  
+[https://github.com/orgs/hto-projects/projects/5/views/1](https://github.com/orgs/hto-projects/projects/5/views/1)
 
 ## Current State
 Currently, the game does not do much. There is a lot of work to be done.

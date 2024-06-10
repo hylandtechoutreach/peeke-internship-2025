@@ -7,8 +7,8 @@ Some key tools will be necessary in order to run the app and contribute to the p
 ### Visual Studio Code
 VS Code is a lightweight code editor with lots of powerful features. [Click here to download & install it.](https://code.visualstudio.com/Download)
 
-### NodeJS
-NodeJS is a JavaScript runtime that lets developers create web servers. The backend of the AUTOHACK IDLE project runs on NodeJS. [Click here to download the installer.](https://nodejs.org/en/download/prebuilt-installer) Note that **npm** (**n**ode **p**ackage **m**anager) should also be installed as part of the NodeJS installation.
+### Node.js
+Node.js is a JavaScript runtime that lets developers create web servers. The backend of the AUTOHACK IDLE project runs on Node.js. [Click here to download the installer.](https://nodejs.org/en/download/prebuilt-installer) Note that **npm** (**n**ode **p**ackage **m**anager) should also be installed as part of the Node.js installation.
 
 ### Git
 Git is a version control system. The AUTOHACK IDLE codebase is stored in a Git repository on GitHub. [Click here to download & install Git.](https://gitforwindows.org/) Note that **Git BASH**, a command line shell, should also be installed as part of the Git for Windows installation.

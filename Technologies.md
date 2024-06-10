@@ -5,7 +5,7 @@ This project combines a number of technologies that work together to create the 
 Both the frontend and the backend of the application use [TypeScript](https://www.typescriptlang.org/).
 
 ## Backend
-The backend is built with [NodeJS](https://nodejs.org/en) and [Express](https://expressjs.com/).
+The backend is built with [Node.js](https://nodejs.org/en) and [Express](https://expressjs.com/).
 
 The server connects to the frontend through HTTP - this serves as an API for the frontend.
 

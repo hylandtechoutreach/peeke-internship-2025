@@ -59,3 +59,10 @@ Issues will be tracked in this GitHub Project:
 Currently, the game does not do much. There is a lot of work to be done.
 
 The deployed application is hosted [on render](https://autohack-idle.onrender.com/).
+
+## Additional Information
+Check out these pages for more information:
+
+- [Technologies (MERN Stack + Phaser)](Technologies.md)
+- [Architecture](Architecture.md)
+- [Team Workflow (Trunk-based Development)](TeamWorkflow.md)

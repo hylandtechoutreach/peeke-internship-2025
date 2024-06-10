@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Environment Setup · App Internship 2024</title>
+        <title>Team Workflow · App Internship 2024</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="MongoAtlasSetup.html" />
+    <link rel="next" href="SummerSchedule.html" />
     
     
-    <link rel="prev" href="MeetingDescriptions.html" />
+    <link rel="prev" href="Architecture.html" />
     
 
     </head>
@@ -161,7 +161,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="TeamWorkflow.html">
+        <li class="chapter active" data-level="1.3.3" data-path="TeamWorkflow.html">
             
                 <a href="TeamWorkflow.html">
             
@@ -211,7 +211,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5" data-path="EnvironmentSetup.html">
+        <li class="chapter " data-level="1.5" data-path="EnvironmentSetup.html">
             
                 <a href="EnvironmentSetup.html">
             
@@ -350,7 +350,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Environment Setup</a>
+        <a href="." >Team Workflow</a>
     </h1>
 </div>
 
@@ -365,99 +365,47 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="environment-setup">Environment Setup</h1>
-<p>Prepare your workstation for the development process.</p>
-<h2 id="installing-tools">Installing Tools</h2>
-<p>Some key tools will be necessary in order to run the app and contribute to the project.</p>
-<h3 id="visual-studio-code">Visual Studio Code</h3>
-<p>VS Code is a lightweight code editor with lots of powerful features. <a href="https://code.visualstudio.com/Download" target="_blank">Click here to download &amp; install it.</a></p>
-<h3 id="nodejs">Node.js</h3>
-<p>Node.js is a JavaScript runtime that lets developers create web servers. The backend of the AUTOHACK IDLE project runs on Node.js. <a href="https://nodejs.org/en/download/prebuilt-installer" target="_blank">Click here to download the installer.</a> Note that <strong>npm</strong> (<strong>n</strong>ode <strong>p</strong>ackage <strong>m</strong>anager) should also be installed as part of the Node.js installation.</p>
-<h3 id="git">Git</h3>
-<p>Git is a version control system. The AUTOHACK IDLE codebase is stored in a Git repository on GitHub. <a href="https://gitforwindows.org/" target="_blank">Click here to download &amp; install Git.</a> Note that <strong>Git BASH</strong>, a command line shell, should also be installed as part of the Git for Windows installation.</p>
-<h2 id="running-the-app">Running the App</h2>
-<p>Once the above tools have been installed, it&apos;s time to run the app. The codebase lives in this GitHub repository: <a href="https://github.com/hto-projects/autohack-idle" target="_blank">https://github.com/hto-projects/autohack-idle</a></p>
-<h3 id="getting-the-code">Getting the Code</h3>
-<p>Follow these steps to properly grab the code for the project from GitHub:</p>
-<ol>
-<li><a href="https://github.com/hto-projects/autohack-idle" target="_blank">Go to the repository on the web</a></li>
-<li>Click the green <strong>&lt;&gt; Code</strong> button in the upper right</li>
-<li>Copy the <strong>HTTPS</strong> URL</li>
-<li>Open VS Code</li>
-<li>Press <code>Ctrl</code>+<code>Shift</code>+<code>P</code> to open the Command Palette</li>
-<li>Type <strong>Git: Clone</strong> and press <code>Enter</code></li>
-<li>Paste the HTTPS URL for the repository</li>
-<li>Select a Repository Destination folder (e.g., the Desktop)</li>
-<li>Once the repository has been cloned, click &quot;Open&quot; in the pop-up to open it</li>
-</ol>
-<p>Now you have the codebase ready for development!</p>
-<h3 id="setting-up-the-environment">Setting Up the Environment</h3>
-<p>Next, get ready to run the project with these steps:</p>
-<ol>
-<li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">Prettier VS Code extension</a>  <ul>
-<li>It should pop up as recommended</li>
+                                <h1 id="team-workflow">Team Workflow</h1>
+<p>When you&apos;re developing features or fixing bugs for the project, you&apos;ll want to follow the <a href="https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development" target="_blank">trunk-based development workflow</a>. A big piece of this will be working together to be as successful as possible.</p>
+<h2 id="during-active-development">During Active Development</h2>
+<p>When the team is up and running, some processes should be followed.</p>
+<h3 id="programming-together">Programming Together</h3>
+<p>You are encouraged to practice <a href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank">pair programming</a> throughout their workdays. You could even try <a href="https://en.wikipedia.org/wiki/Mob_programming" target="_blank">mob programming</a> if you&apos;d like. Pair programming will help you:</p>
+<ul>
+<li>Learn more about the codebase</li>
+<li>Assure quality of the code written</li>
+<li>Impart wisdom and insights you may have</li>
+<li>Get to know your team members better</li>
+<li>Maintain the codebase effectively</li>
+</ul>
+<p>If you are <em>not</em> pair programming, you will need to make sure the whole team understands the code you are writing.</p>
+<h3 id="issues">Issues</h3>
+<p>Issues will be tracked using the repository&apos;s <a href="https://github.com/orgs/hto-projects/projects/5" target="_blank">project</a> in GitHub. This board is the place to see who&apos;s working on what. You&apos;re welcome to create your own issues, but everything you do in the codebase should be tied to an issue. You are also welcome to assign yourselves issues as a team.</p>
+<h3 id="working-on-an-issue">Working on an Issue</h3>
+<p>The basic process to follow when you&apos;re starting work on an issue is as follows:</p>
+<ul>
+<li>Move the issue to the &quot;In Progress&quot; column</li>
+<li>Make sure you are assigned to the issue</li>
+<li>Create a feature branch off the <strong>main</strong> branch, attached to the issue</li>
+<li>Pull the latest code for your feature branch locally</li>
+<li>Do your development work locally</li>
+<li>Make sure to merge in any current changes from the <strong>main</strong> branch into your feature branch</li>
+<li>Continue development until your issue is ready for review</li>
+<li>Push your changes up to your remote feature branch</li>
+<li>Submit a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull request</a> for your issue</li>
+<li>Have at least one other intern complete a <a href="https://en.wikipedia.org/wiki/Code_review" target="_blank">code review</a></li>
+<li>If the code is good to go:  <ul>
+<li>The other intern should approve &amp; merge it into the <strong>main branch</strong></li>
 </ul>
 </li>
-<li>Open a terminal with <code>Ctrl</code>+```</li>
-</ol>
-<p>In the terminal, run these commands by typing them and pressing <code>Enter</code>:</p>
-<pre><code class="lang-bash">npm install
-</code></pre>
-<blockquote>
-<p>Install the backend dependencies - this may take a while</p>
-</blockquote>
-<p><br></p>
-<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> frontend
-</code></pre>
-<blockquote>
-<p><strong>C</strong>hange to the frontend <strong>D</strong>irectory</p>
-</blockquote>
-<p><br></p>
-<pre><code class="lang-bash">npm install
-</code></pre>
-<blockquote>
-<p>Install frontend dependencies - this may take a while</p>
-</blockquote>
-<p><br></p>
-<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> ..
-</code></pre>
-<blockquote>
-<p><strong>C</strong>hange back to the root <strong>D</strong>irectory</p>
-</blockquote>
-<p><br></p>
-<p>Now, the app should be ready to run!</p>
-<h3 id="running-the-app">Running the App</h3>
-<p>There are a few ways to run the frontend and the backend, including scripts that run them concurrently:</p>
-<ul>
-<li>In the terminal, from the root directory, run the <code>npm run dev</code> command</li>
-<li>In the NPM SCRIPTS pane in VS Code (bottom left), click the <strong>Run</strong> button under <strong>package.json</strong> for the <strong>dev</strong> script</li>
+<li>Otherwise:  <ul>
+<li>You can continue development on the feature branch</li>
 </ul>
-<p>It is also possible to run the backend and frontend separately:</p>
-<ul>
-<li>In the terminal, from the root directory, run the <code>npm run server</code> command to run the backend</li>
-<li>Run the <code>npm run client</code> command to run the frontend</li>
-<li>These can also be run from the NPM SCRIPTS pane in VS Code</li>
+</li>
 </ul>
-<p>Either way, the application should be running! It will not actually function perfectly just yet, but it will be alive.</p>
-<h2 id="configuring-a-database">Configuring a Database</h2>
-<p>When running the application, there should be a message that says:</p>
-<pre><code>Error: The `uri` parameter to `openUri()` must be a string, got &quot;undefined&quot;. Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-</code></pre><p>This is because the application expects a database connection string, and there currently is not one.</p>
-<h3 id="setting-up-your-own-cloud-database">Setting Up Your Own Cloud Database</h3>
-<p>First, you&apos;ll want to create a database cluster using MongoDB Atlas online. <a href="MongoAtlasSetup.html">Click here for instructions.</a> By the end of the setup process, be sure to copy the connection string.</p>
-<h3 id="connecting-to-the-database">Connecting to the Database</h3>
-<p>Once the connection string has been obtained, it will need to live in a <strong>.env</strong> file. This is a secret file, not stored in GitHub, that allows developers to configure the environment an instance of an application.</p>
-<ol>
-<li>Find the <strong>.env-example</strong> file in the codebase</li>
-<li>Rename it to <strong>.env</strong></li>
-<li>Replace <code>YOUR_URI_HERE</code> with the copied connection string</li>
-<li>Replace <code>YOUR_DBNAME_HERE</code> with any name desired (e.g., <code>ahi-local</code>)</li>
-</ol>
-<p>Once that environment has been setup, run the application again using <code>npm run dev</code>. It should actually be connected to your database!</p>
-<h2 id="testing">Testing</h2>
-<p>Try registering for an account, and logging into the application. Check the cluster in MongoDB Atlas online, and ensure that the user data is there.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>This should be all that&apos;s needed for an up-and-running application. Note that it is not necessary to understand any of the code just yet... the first step is to simply run it and make sure it&apos;s working.</p>
+<p>Please leverage your fellow interns as you do your development - and leverage your mentors as well!</p>
+<h2 id="autonomy">Autonomy</h2>
+<p>It will be up to you, as a team, to complete the necessary work for this project. Ideally, you will be fully autonomous; self-governing, without the need for any overarching authority. There will be some structures in place to help you function to the best of your ability, but ultimately, your success is up to you. You, as a team, have the power to dictate the vision and determine the path forward for the project. The job of the Hyland leads and mentors is simply to provide you the best available space to make your team dreams come true.</p>
 
                                 
                                 </section>
@@ -485,12 +433,12 @@
 
             
                 
-                <a href="MeetingDescriptions.html" class="navigation navigation-prev " aria-label="Previous page: Meeting Descriptions">
+                <a href="Architecture.html" class="navigation navigation-prev " aria-label="Previous page: Architecture">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="MongoAtlasSetup.html" class="navigation navigation-next " aria-label="Next page: MongoDB Atlas Setup">
+                <a href="SummerSchedule.html" class="navigation navigation-next " aria-label="Next page: Summer Schedule">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -501,7 +449,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Environment Setup","level":"1.5","depth":1,"next":{"title":"MongoDB Atlas Setup","level":"1.5.1","depth":2,"path":"MongoAtlasSetup.md","ref":"MongoAtlasSetup.md","articles":[]},"previous":{"title":"Meeting Descriptions","level":"1.4.1","depth":2,"path":"MeetingDescriptions.md","ref":"MeetingDescriptions.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"App Internship 2024","gitbook":"*"},"file":{"path":"EnvironmentSetup.md","mtime":"2024-06-10T20:29:02.104Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-10T20:29:31.135Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Team Workflow","level":"1.3.3","depth":2,"next":{"title":"Summer Schedule","level":"1.4","depth":1,"path":"SummerSchedule.md","ref":"SummerSchedule.md","articles":[{"title":"Meeting Descriptions","level":"1.4.1","depth":2,"path":"MeetingDescriptions.md","ref":"MeetingDescriptions.md","articles":[]}]},"previous":{"title":"Architecture","level":"1.3.2","depth":2,"path":"Architecture.md","ref":"Architecture.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"App Internship 2024","gitbook":"*"},"file":{"path":"TeamWorkflow.md","mtime":"2024-06-10T20:29:02.104Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-10T20:29:31.135Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -7,7 +7,7 @@ The hope is that each intern will be generally available to work Tuesdays, Wedne
 Each working day, there will be a stand-up meeting starting at 9:30am.
 
 ## Week 1: 6/16-6/22
-The goal for this week is for each intern to complete the [First Week Checklist](AppInternsFirstWeekChecklist.pdf)!
+The goal for this week is for each intern to complete the [First Week Checklist](AppInternsFirstWeekChecklist.docx)!
 
 - Tuesday, 6/18: First day!
 - Wednesday, 6/19: Project Introduction 10:30am-12pm

@@ -1,6 +1,7 @@
 - [App Internship 2024](Home.md)
   - [Getting Started](GettingStarted.md)
 - [Project Information](ProjectInformation.md)
+  - [Technologies](Technologies.md)
 - [Summer Schedule](SummerSchedule.md)
   - [Meeting Descriptions](MeetingDescriptions.md)
 - [Environment Setup](EnvironmentSetup.md)

@@ -1,4 +1,4 @@
 # Getting Started
 More information coming soon!
 
-<!-- including philosophy! -->
+<!-- including team process, philosophy, and internship goals -->

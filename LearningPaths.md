@@ -55,7 +55,7 @@ It will be helpful to recognize the basic parts of a full-stack web application:
 - **database**: the storage location for all information (MongoDB for this project)
 - **communication layer**: how the client and server communicate (HTTP for this project)
 
-[Click here for a rich ](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+[Click here for the Wikipedia article that covers this topic.](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
 
 ## Terminal / Command Line
 Using the command line is a valuable skill for software development, and can greatly enhance the development process.
@@ -94,7 +94,7 @@ The application also uses React Redux to store state. It can be helpful to learn
 - [Quick Start with React/TypeScript](https://react-redux.js.org/tutorials/typescript-quick-start)
 
 ## Frontend Game Development: Phaser
-In addition to React, the frontend will use the Phaser game development framework. There is a complete [compendium of learning resources](https://phaser.io/learn) available
+In addition to React, the frontend will use the Phaser game development framework. There is a complete [compendium of learning resources](https://phaser.io/learn) available, which includes some particularly helpful links:
 
 - [Making a Game](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1)
 - [Examples](https://labs.phaser.io/)

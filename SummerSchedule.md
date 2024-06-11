@@ -9,8 +9,8 @@ Each working day, there will be a stand-up meeting starting at 9:30am.
 ## Week 1: 6/16-6/22
 The goal for this week is for each intern to complete the [First Week Checklist](AppInternsFirstWeekChecklist.docx)!
 
-- Tuesday, 6/18: First day!
-- Wednesday, 6/19: Project Introduction 10:30am-12pm
+- Tuesday, 6/18: First day, Project Introduction 1:30-3pm
+- Wednesday, 6/19: Work time!
 - Thursday, 6/20: Game Design Discussion 11am-12pm
 
 ## Week 2: 6/23-6/29

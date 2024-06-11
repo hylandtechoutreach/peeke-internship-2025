@@ -60,6 +60,9 @@ Currently, the game does not do much. There is a lot of work to be done.
 
 The deployed application is hosted [on render](https://autohack-idle.onrender.com/).
 
+## Copyright
+All team members will be listed as copyright holders for the application codebase.
+
 ## Additional Information
 Check out these pages for more information:
 

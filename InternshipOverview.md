@@ -34,3 +34,6 @@ There are some basic expectations all interns should meet:
   - Do not say anything inappropriate
 - Reach out and ask for help if you need it
   - Let us know how you're feeling!
+
+### Dealing with Downtime
+There may be points during the internship when you feel like there's not much to do. This could be because sprint work is completed, or you're stuck on an issue, or you have some extra time between meetings. When this happens, feel free to check out the [fun things page](FunThings.md)!

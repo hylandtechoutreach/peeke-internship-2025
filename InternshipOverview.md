@@ -20,11 +20,14 @@ Most importantly, you will learn the power of teamwork.
 ## Intern Expectations
 There are some basic expectations all interns should meet:
 
+- Working hours: TWT 9am-4pm
 - Attend all scheduled meetings for your group
   - Please let us know if you have a conflict!
+- Reflect your working hours in Outlook
 - Participate actively during group activities
 - Respect your fellow interns, always
 - Complete any remote work independently
+- Track your hours
 - Communicate professionally
   - Check your e-mail
   - Check Teams

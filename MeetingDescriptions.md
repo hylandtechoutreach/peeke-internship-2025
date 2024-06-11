@@ -21,18 +21,20 @@ The team demonstrates their completed work from the previous two weeks.
 The team looks ahead and decides which issues to attack during the next two weeks.
 
 ## Project Introduction
->6/19 from 10:30am-12pm
+>6/18 from 1:30-3pm
 
-This meeting is intended to introduce the AUTOHACK IDLE project as a whole, as well as team processes such as:
+This meeting is intended to introduce the internship as a whole, including:
 
+- This website
 - These meetings
-- GitHub Issues
-- Programming Methods
-- Learning Resources
-- Environment Setup
-- First Issue Assignments
+- Team processes & roles
+- Issue tracking
+- Programming methods
+- Project details
+- Learning resources
+- First week goals
 
-By the end of this meeting, interns should have a solid plan in place for work for the rest of the day and the next day as well.
+By the end of this meeting, interns should have a solid plan in place for work for the rest of the day and the next two days as well.
 
 ## Game Design Discussion
 >6/20 from 11am-12pm

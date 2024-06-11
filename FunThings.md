@@ -20,5 +20,5 @@ Feel free to utilize all of these facilities!
 ## Generative A.I.
 [Click here to see more about how generative A.I. can be used throughout the summer.](GenAi.md)
 
-## Official 2024 App Project Team Spotify Playlist
+## 2024 App Project Team Spotify Playlist
 [AHI SUMMER](https://open.spotify.com/playlist/6ZRCVhz8SQP6eWj2wKy4dZ?si=c3a2cd423a4a4263&pt=3e394e619df7918c50ade18f82dca609)

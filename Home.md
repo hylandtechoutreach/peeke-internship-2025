@@ -2,6 +2,9 @@
 # App Project 2024
 Welcome to your summer at Hyland 😎🌞🌅🌴🌊
 
+#### Quick Links
+[Repo](https://github.com/hto-projects/autohack-idle) _|||_ [Board](https://github.com/orgs/hto-projects/projects/5)
+
 ## Internship Overview
 See what this internship is [all about](InternshipOverview.md).
 

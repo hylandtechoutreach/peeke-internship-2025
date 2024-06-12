@@ -4,6 +4,7 @@
   - [Technologies](Technologies.md) 
   - [Architecture](Architecture.md)
   - [Team Workflow](TeamWorkflow.md)
+  - [Contribution Guide](ContributionGuide.md)
 - [Summer Schedule](SummerSchedule.md)
   - [Meeting Descriptions](MeetingDescriptions.md)
 - [Environment Setup](EnvironmentSetup.md)

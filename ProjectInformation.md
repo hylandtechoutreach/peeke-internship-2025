@@ -2,7 +2,21 @@
 _an incremental game for lazy coders_
 
 ## Description
-This application will help students learn to code while providing a fun and engaging game experience. Taking inspiration from incremental games like [Cookie Clicker](https://en.wikipedia.org/wiki/Cookie_Clicker), [AdVenture Capitalist](https://en.wikipedia.org/wiki/AdVenture_Capitalist), [Idle Slayer](https://idleslayer.com/), and [Candy Box](https://candybox2.github.io/candybox/), the game will encourage players to return on a regular basis to build up their hoard of data AND their programming acumen. They will learn about computer science without even realizing it - through puzzles, mini-games, achievements, and challenges.
+This application will help students learn to code while providing a fun and engaging game experience. Taking inspiration from incremental games like [Cookie Clicker](https://en.wikipedia.org/wiki/Cookie_Clicker), [AdVenture Capitalist](https://en.wikipedia.org/wiki/AdVenture_Capitalist), [Idle Slayer](https://idleslayer.com/), and [Candy Box](https://candybox2.github.io/candybox/), the game will encourage players to return on a regular basis to build up their hoard of data AND their programming acumen.
+
+### Player Learning
+The game will be designed in such a way that players will learn about computer science without even realizing it - through puzzles, mini-games, achievements, and challenges. Learning should in no way be the main focus of the game - it will simply be a byproduct of the playing experience. The hope is that by prioritizing the actual gameplay, students will be more compelled to return and keep learning in order to keep playing the game.
+
+Because the game itself is written in TypeScript/JavaScript, the code presented to the player should all be actual JavaScript code. That said, the language specifics are not the important thing to teach - it is much more important to teach the _concepts_ behind the code. For example, players should have the opportunity to learn about things like:
+
+- Loops
+- Arrays
+- Variables
+- Functions
+- Conditional Statements
+- Data Structures
+
+Since the codebase itself uses all of these concepts, the idea is to bring some of that to light in a simplified, welcoming, playground environment. This peek behind the curtain should hopefully help the players realize that they too could build a game like this if they wanted to build it!
 
 ### Why an Idle Game?
 Essentially, [people like when number go bigger](https://fictiontalk.com/2021/08/25/the-psychology-of-idle-games-why-humans-like-big-numbers/). This will hopefully keep players invested, and make them want to level up their coding skills.

@@ -4,9 +4,22 @@ In order to contribute to the project in GitHub, you will need to follow these s
 >Note: Using Git, there are many ways to accomplish these tasks. This guide tends to use the command line, but all of this can be done through the VS Code GUI as well.
 
 ## Registering for a GitHub Account
-The first thing you'll have to do is create a GitHub account. Go to [github.com/signup](https://github.com/signup/), and do what it says.
+The first thing you'll have to do is create a GitHub account. Go to [github.com/signup](https://github.com/signup/), and do what it says. For this project, use a personal email/account - this will ensure you have access beyond the timeframe of the summer.
 
 Once you have an account, share your username with Joseph (or another Hyland mentor) to be added as a collaborator to the [repository](https://github.com/hto-projects/autohack-idle).
+
+### Local Account Configuration
+In order to commit locally, you will need to properly configure your account on your computer. In the command line, you can use these commands to set your name and email:
+
+```
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+```
+
+Be sure to replace `FIRST_NAME LAST_NAME` with your first & last name, and replace `MYNAME@example.com` with your email address.
+
+### Authentication
+In order to push changes to the remote repository, you will need to authenticate yourself. You should be prompted to sign in the first time you attempt to push. After that, it should save your authentication information for any future pushes.
 
 ## Starting from an Issue
 For every piece of development work, there should be a corresponding issue on the [project board](https://github.com/orgs/hto-projects/projects/5). If you are working on an issue, you should be assigned under the "Assignees" field:
@@ -67,7 +80,7 @@ The next step is to actually change the code in the files for the issue. Once yo
 ## Pushing to the Remote Feature Branch
 Once changes are committed (i.e., saved) to your local branch, it's time to push them up to the remote feature branch. This is possible using the VS Code GUI, or simply the `git push` command. Depending on how your branch was created, it may be necessary to [set the upstream](https://stackoverflow.com/questions/18031946/when-doing-a-git-push-what-does-set-upstream-do) so your local feature branch properly points to the remote feature branch.
 
-This will also require authentication, and proper collaborator status within the repository - so make sure to share your GitHub username with the mentors, and use your credentials to push!
+This will also require user confirguration and authentication, as well as proper collaborator status within the repository - so make sure to share your GitHub username with the mentors, and use your credentials to push!
 
 ## Pulling & Merging from the Main Branch
 Throughout the development process, you should constantly be pulling the latest version of the **main** branch and merging it into your feature branch. These commands can accomplish this:

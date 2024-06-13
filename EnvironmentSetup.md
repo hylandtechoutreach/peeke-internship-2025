@@ -106,8 +106,19 @@ Once the connection string has been obtained, it will need to live in a **.env**
 
 Once that environment has been setup, run the application again using `npm run dev`. It should actually be connected to your database!
 
+## Connecting the Frontend & Backend
+In order to make requests from the frontend to the backend, a frontend **.env** file must be created. Like with the backend, this file allows a developer to configure the environment for the application.
+
+Create a file named **.env** within the **frontend** folder, and add this code:
+
+```
+VITE_BACKEND_URL="http://localhost:5000"
+```
+
+This will point requests from the frontend to the proper backend. If needed, update the URL so it points to the right place.
+
 ## Testing
-Try registering for an account, and logging into the application. Check the cluster in MongoDB Atlas online, and ensure that the user data is there.
+With all of the setup complete, try registering for an account, and logging into the application. Check the cluster in MongoDB Atlas online, and ensure that the user data is there.
 
 ## Conclusion
 This should be all that's needed for an up-and-running application. Note that it is not necessary to understand any of the code just yet... the first step is to simply run it and make sure it's working.

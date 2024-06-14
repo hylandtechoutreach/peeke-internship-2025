@@ -5,6 +5,7 @@
   - [Architecture](Architecture.md)
   - [Team Workflow](TeamWorkflow.md)
   - [Contribution Guide](ContributionGuide.md)
+  - [Language](Language.md)
 - [Summer Schedule](SummerSchedule.md)
   - [Meeting Descriptions](MeetingDescriptions.md)
 - [Environment Setup](EnvironmentSetup.md)

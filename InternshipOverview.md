@@ -36,4 +36,7 @@ There are some basic expectations all interns should meet:
   - Let us know how you're feeling!
 
 ### Dealing with Downtime
-There may be points during the internship when you feel like there's not much to do. This could be because sprint work is completed, or you're stuck on an issue, or you have some extra time between meetings. When this happens, feel free to check out the [fun things page](FunThings.md)!
+There may be points during the internship when you feel like there's not much to do. This could be because sprint work is completed, or you're stuck on an issue, or you have some extra time between meetings. When this happens, feel free to check out the [fun things page!](FunThings.md)
+
+## Intake Questionnaire
+[Click here to complete a ~10 minute survey to share a bit more about yourself.](https://forms.office.com/r/SKDKwh56uP)

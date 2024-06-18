@@ -5,6 +5,7 @@ This is supposed to be fun.
 There are several opportunities to have some fun at Hyland HQ!
 
 - Snacks & drinks in the break rooms (very fun)
+  - Try to snag some of the elusive Peanut Butter M&Ms
 - Pickleball court
 - Putting green
 - Basketball courts (indoor and outdoor)
@@ -22,7 +23,7 @@ If you have some downtime, here are some ideas for other things to do:
 
 - [Browse Hacker News](https://news.ycombinator.com/)
 - [Scroll through Viva Engage](https://engage.cloud.microsoft/main/org/hyland.com/feed)
-- Go down some [Wiki rabbit holes](https://en.wikipedia.org/wiki/Wiki_rabbit_hole):
+- Go down some [wiki rabbit holes](https://en.wikipedia.org/wiki/Wiki_rabbit_hole)
   - [Computer science](https://en.wikipedia.org/wiki/Computer_science)
   - [History of Nintendo](https://en.wikipedia.org/wiki/History_of_Nintendo)
   - [Atari video game burial](https://en.wikipedia.org/wiki/Atari_video_game_burial)
@@ -41,7 +42,7 @@ If you have some downtime, here are some ideas for other things to do:
   - Is free will an illusion?
   - Should pineapple be allowed on pizza?
 - [Explore the useless web](https://theuselessweb.com/)
-  - Or, use [DevTools](DevTools.md) to find the list of sites
+  - Or, use [DevTools](DevTools.md) to find the list of useless sites
 
 ## Generative A.I.
 [Click here to see more about how generative A.I. can be used throughout the summer.](GenAi.md)

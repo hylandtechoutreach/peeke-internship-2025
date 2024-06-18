@@ -5,7 +5,6 @@ This is supposed to be fun.
 There are several opportunities to have some fun at Hyland HQ!
 
 - Snacks & drinks in the break rooms (very fun)
-  - Try to snag some of the elusive Peanut Butter M&Ms
 - Pickleball court
 - Putting green
 - Basketball courts (indoor and outdoor)

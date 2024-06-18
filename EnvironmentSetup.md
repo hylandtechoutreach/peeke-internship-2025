@@ -13,6 +13,8 @@ Node.js is a JavaScript runtime that lets developers create web servers. The bac
 ### Git
 Git is a version control system. The AUTOHACK IDLE codebase is stored in a Git repository on GitHub. [Click here to download & install Git.](https://gitforwindows.org/) Note that **Git BASH**, a command line shell, should also be installed as part of the Git for Windows installation.
 
+>**IMPORTANT NOTE:** You may have to run the installer as an administrator. Right click from the file explorer to see that option.
+
 ## Running the App
 Once the above tools have been installed, it's time to run the app. The codebase lives in this GitHub repository: [https://github.com/hto-projects/autohack-idle](https://github.com/hto-projects/autohack-idle)
 

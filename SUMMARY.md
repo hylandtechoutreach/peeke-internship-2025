@@ -1,5 +1,6 @@
 - [App Internship 2024](Home.md)
 - [Internship Overview](InternshipOverview.md)
+  - [First Week Checklist](FirstWeekChecklist.md)
 - [Project Information](ProjectInformation.md)
   - [Technologies](Technologies.md) 
   - [Architecture](Architecture.md)

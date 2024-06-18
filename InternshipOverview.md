@@ -40,3 +40,6 @@ There may be points during the internship when you feel like there's not much to
 
 ## Intake Questionnaire
 [Click here to complete a ~10 minute survey to share a bit more about yourself.](https://forms.office.com/r/SKDKwh56uP)
+
+## First Week Checklist
+[Click here to view the first week checklist](FirstWeekChecklist.md)!

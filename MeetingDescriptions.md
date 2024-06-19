@@ -77,7 +77,7 @@ These meetings allow interns to clean up the GitHub Issues board. They should pr
 This time will also be an opportunity for interns to blue sky brainstorm potential new features. Optimally, the board should always contain more issues in the backlog than can be completed within one sprint - but each issue should be feasible within one sprint.
 
 ## Midsummer Demo
->7/10 from 2-3pm  
+>7/10 from 3-4pm  
 
 This meeting gives the team an opportunity to showcase the work they have completed thus far. It should encourage them to present a "complete" (MVP) version of their product. The main goal of the midsummer demo is to help them prepare for the final demo.
 

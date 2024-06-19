@@ -29,8 +29,8 @@ The goal for this week is for the intern team to begin to function autonomously 
 The goal for this week is for the team to continue their development under Jacob's leadership as Joseph prepares to depart for the next five weeks.
 
 - Tuesday, 7/9: Branding Discussion 1-2pm
-- Wednesday, 7/10: Board Maintenance 2-3pm
-- Thursday, 7/11: Midsummer Demo 3-4pm
+- Wednesday, 7/10: Midsummer Demo 2-3pm
+- Thursday, 7/11: Board Maintenance 3-4pm
 
 ## Week 5: 7/14-7/20*
 The goal for this week is to continue development, with sights set on the end of the internship.

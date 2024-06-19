@@ -69,7 +69,7 @@ This meeting will allow interns to consider the branding implications of the gam
 For this project, the goal of a solid brand identity is to ensure a cohesive gameplay experience and presence. This identity can help guide decision-making around the features, theming, and overall direction of the game.
 
 ## Board Maintenance
->7/10 from 2-3pm  
+>7/11 from 3-4pm
 >7/23 from 1-2pm
 
 These meetings allow interns to clean up the GitHub Issues board. They should prune out-of-date issues, ensure all completed issues are moved to the proper place, organize the backlog in priority order, and do anything else to make the board nice.
@@ -77,7 +77,7 @@ These meetings allow interns to clean up the GitHub Issues board. They should pr
 This time will also be an opportunity for interns to blue sky brainstorm potential new features. Optimally, the board should always contain more issues in the backlog than can be completed within one sprint - but each issue should be feasible within one sprint.
 
 ## Midsummer Demo
->7/11 from 3-4pm
+>7/10 from 2-3pm  
 
 This meeting gives the team an opportunity to showcase the work they have completed thus far. It should encourage them to present a "complete" (MVP) version of their product. The main goal of the midsummer demo is to help them prepare for the final demo.
 

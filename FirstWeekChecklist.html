@@ -411,27 +411,42 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="first-week-checklist">First Week Checklist</h1>
-<p>gotta check &apos;em all!</p>
+<p><em>gotta check &apos;em all!</em></p>
 <ul style="list-style-type: none">
-  <input type="checkbox" id="item1">Visit the internship homepage<br>
-  <input type="checkbox" id="item2">Change your desktop background<br>
-  <input type="checkbox" id="item3">Play a game of ping pong<br>
-  <input type="checkbox" id="item4">Watch a video from the Fun Things page<br>
-  <input type="checkbox" id="item5">Add a song to the team playlist<br>
-  <input type="checkbox" id="item6">Complete one of the learning path items<br>
-  <input type="checkbox" id="item7">Work somewhere other than your desk<br>
-  <input type="checkbox" id="item8">Send an email from your work account<br>
-  <input type="checkbox" id="item9">Run the AHI application locally<br>
-  <input type="checkbox" id="item10">Practice pair programming<br>
-  <input type="checkbox" id="item12">Grab some pretzels, M&amp;Ms, or mints<br>
-  <input type="checkbox" id="item13">Send a Teams message to another intern<br>
-  <input type="checkbox" id="item14">Run into a problem<br>
-  <input type="checkbox" id="item15">Adorn your desk with a decorative item of some kind<br>
-  <input type="checkbox" id="item16">Hack the password protected page<br>
-  <input type="checkbox" id="item17">Practice mob programming<br>
-  <input type="checkbox" id="item18">Get free lunch on Third Thursday<br>
-  <input type="checkbox" id="item19">Successfully submit one Pull Request<br>
+  <input type="checkbox" id="item1"> Visit the internship homepage<br>
+  <input type="checkbox" id="item2"> Change your desktop background<br>
+  <input type="checkbox" id="item3"> Play a game of ping pong<br>
+  <input type="checkbox" id="item4"> Watch a video from the Fun Things page<br>
+  <input type="checkbox" id="item5"> Add a song to the team playlist<br>
+  <input type="checkbox" id="item6"> Complete one of the learning path items<br>
+  <input type="checkbox" id="item7"> Work somewhere other than your desk<br>
+  <input type="checkbox" id="item8"> Send an email from your work account<br>
+  <input type="checkbox" id="item9"> Run the AHI application locally<br>
+  <input type="checkbox" id="item10"> Practice pair programming<br>
+  <input type="checkbox" id="item12"> Grab some pretzels, M&amp;Ms, or mints<br>
+  <input type="checkbox" id="item13"> Send a Teams message to another intern<br>
+  <input type="checkbox" id="item14"> Run into a problem<br>
+  <input type="checkbox" id="item15"> Adorn your desk with a decorative item of some kind<br>
+  <input type="checkbox" id="item16"> Hack the password protected page<br>
+  <input type="checkbox" id="item17"> Practice mob programming<br>
+  <input type="checkbox" id="item18"> Get free lunch on Third Thursday<br>
+  <input type="checkbox" id="item19"> Successfully submit one Pull Request<br>
 </ul>
+
+<script>
+  document.querySelectorAll("input").forEach(inputElement => {
+    const elementId = `${inputElement.id}`;
+
+    inputElement.checked = localStorage.getItem(elementId) === 'checked';
+    inputElement.onchange = e => {
+      if (e.target.checked) {
+        localStorage.setItem(elementId, 'checked');
+      } else {
+          localStorage.setItem(elementId, 'not-checked');
+      }
+    };
+  });
+</script>
 
                                 
                                 </section>
@@ -475,7 +490,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"First Week Checklist","level":"1.2.1","depth":2,"next":{"title":"Project Information","level":"1.3","depth":1,"path":"ProjectInformation.md","ref":"ProjectInformation.md","articles":[{"title":"Technologies","level":"1.3.1","depth":2,"path":"Technologies.md","ref":"Technologies.md","articles":[]},{"title":"Architecture","level":"1.3.2","depth":2,"path":"Architecture.md","ref":"Architecture.md","articles":[]},{"title":"Team Workflow","level":"1.3.3","depth":2,"path":"TeamWorkflow.md","ref":"TeamWorkflow.md","articles":[]},{"title":"Contribution Guide","level":"1.3.4","depth":2,"path":"ContributionGuide.md","ref":"ContributionGuide.md","articles":[]},{"title":"Language","level":"1.3.5","depth":2,"path":"Language.md","ref":"Language.md","articles":[]}]},"previous":{"title":"Internship Overview","level":"1.2","depth":1,"path":"InternshipOverview.md","ref":"InternshipOverview.md","articles":[{"title":"First Week Checklist","level":"1.2.1","depth":2,"path":"FirstWeekChecklist.md","ref":"FirstWeekChecklist.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"App Internship 2024","gitbook":"*"},"file":{"path":"FirstWeekChecklist.md","mtime":"2024-06-18T19:41:08.482Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-18T19:41:38.157Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"First Week Checklist","level":"1.2.1","depth":2,"next":{"title":"Project Information","level":"1.3","depth":1,"path":"ProjectInformation.md","ref":"ProjectInformation.md","articles":[{"title":"Technologies","level":"1.3.1","depth":2,"path":"Technologies.md","ref":"Technologies.md","articles":[]},{"title":"Architecture","level":"1.3.2","depth":2,"path":"Architecture.md","ref":"Architecture.md","articles":[]},{"title":"Team Workflow","level":"1.3.3","depth":2,"path":"TeamWorkflow.md","ref":"TeamWorkflow.md","articles":[]},{"title":"Contribution Guide","level":"1.3.4","depth":2,"path":"ContributionGuide.md","ref":"ContributionGuide.md","articles":[]},{"title":"Language","level":"1.3.5","depth":2,"path":"Language.md","ref":"Language.md","articles":[]}]},"previous":{"title":"Internship Overview","level":"1.2","depth":1,"path":"InternshipOverview.md","ref":"InternshipOverview.md","articles":[{"title":"First Week Checklist","level":"1.2.1","depth":2,"path":"FirstWeekChecklist.md","ref":"FirstWeekChecklist.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"App Internship 2024","gitbook":"*"},"file":{"path":"FirstWeekChecklist.md","mtime":"2024-06-19T13:55:03.809Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-19T13:55:32.853Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -47,4 +47,4 @@ If you have some downtime, here are some ideas for other things to do:
 [Click here to see more about how generative A.I. can be used throughout the summer.](GenAi.md)
 
 ## 2024 App Project Team Spotify Playlist
-[AHI SUMMER](https://open.spotify.com/playlist/6ZRCVhz8SQP6eWj2wKy4dZ?si=c3a2cd423a4a4263&pt=3e394e619df7918c50ade18f82dca609)
+[AHI SUMMER](https://open.spotify.com/playlist/6ZRCVhz8SQP6eWj2wKy4dZ?si=94249b51f06b49e7&pt=c96d61e1fcc9e094a4cc40959d3e3cef)

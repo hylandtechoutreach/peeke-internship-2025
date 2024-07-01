@@ -28,9 +28,9 @@ The goal for this week is for the intern team to begin to function autonomously 
 ## Week 4: 7/7-7/13
 The goal for this week is for the team to continue their development under Jacob's leadership as Joseph prepares to depart for the next five weeks.
 
-- Tuesday, 7/9: Branding Discussion 1-2pm
+- Tuesday, 7/9: Branding Discussion 2-3pm
 - Wednesday, 7/10: Midsummer Demo 3-4pm
-- Thursday, 7/11: Board Maintenance 3-4pm
+- Thursday, 7/11: Board Maintenance & Checkpoint 3-4pm
 
 ## Week 5: 7/14-7/20*
 The goal for this week is to continue development, with sights set on the end of the internship.
@@ -39,7 +39,7 @@ The goal for this week is to continue development, with sights set on the end of
 - Thursday, 7/18: Playtesting 11am-12pm
 
 ## Week 6: 7/21-7/27*
-The goal for this week is to continue development.
+The goal for this week is to continue development. _Note: these meetings may be rescheduled or cancelled due to the full-day trainings on July 24-25._ 
 
 - Tuesday, 7/23: Board Maintenance 1-2pm
 - Wednesday, 7/24: UX Review 11am-12pm
@@ -49,6 +49,7 @@ The goal for this week is to continue development.
 The goal for this week is to continue development, and start preparing for the final demo. Based on scheduling, it may be necessary for the final presentation to take place during this week.
 
 - Thursday, 8/1: Playtesting 11am-12pm
+- Thursday, 8/1: Final Presentation Preparation 3-4pm
 
 ## Week 8: 8/4-8/10*
 The goal for this week is continue development.

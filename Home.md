@@ -22,3 +22,6 @@ Brush up on your skills, or learn some totally new ones with [these resources](L
 
 ## Fun Things
 All work and no play makes high school interns something something. Luckily, there are some [recreational amusements](FunThings.md) in addition to all the occupational assignments.
+
+## Endsummer Survey
+[Click here to take the Endsummer Survey.](https://forms.office.com/r/uUf8Ve32GR) Please do not complete this survey until your internship experience has ended.

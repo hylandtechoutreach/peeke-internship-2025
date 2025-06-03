@@ -10,7 +10,7 @@ _gotta check 'em all!_
   <input type="checkbox" id="item6"> Complete one of the learning path items<br>
   <input type="checkbox" id="item7"> Work somewhere other than your desk<br>
   <input type="checkbox" id="item8"> Send an email from your work account<br>
-  <input type="checkbox" id="item9"> Run the AHI application locally<br>
+  <input type="checkbox" id="item9"> Run the HyTOP application locally<br>
   <input type="checkbox" id="item10"> Practice pair programming<br>
   <input type="checkbox" id="item12"> Grab some pretzels, M&Ms, or mints<br>
   <input type="checkbox" id="item13"> Send a Teams message to another intern<br>
@@ -18,7 +18,7 @@ _gotta check 'em all!_
   <input type="checkbox" id="item15"> Adorn your desk with a decorative item of some kind<br>
   <input type="checkbox" id="item16"> Hack the password protected page<br>
   <input type="checkbox" id="item17"> Practice mob programming<br>
-  <input type="checkbox" id="item18"> Get free lunch on Third Thursday<br>
+  <input type="checkbox" id="item18"> Get a free lunch<br>
   <input type="checkbox" id="item19"> Successfully submit one Pull Request<br>
 </ul>
 

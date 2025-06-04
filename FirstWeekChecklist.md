@@ -23,6 +23,7 @@ _gotta check 'em all!_
 </ul>
 
 <script>
+  // store checks
   document.querySelectorAll("input").forEach(inputElement => {
     const elementId = `${inputElement.id}`;
 

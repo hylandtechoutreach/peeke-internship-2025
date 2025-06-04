@@ -6,7 +6,7 @@ In order to contribute to the project in GitHub, you will need to follow these s
 ## Registering for a GitHub Account
 The first thing you'll have to do is create a GitHub account. Go to [github.com/signup](https://github.com/signup/), and do what it says. For this project, use a personal email/account - this will ensure you have access beyond the timeframe of the summer.
 
-Once you have an account, share your username with Joseph (or another Hyland mentor) to be added as a collaborator to the [repository](https://github.com/hto-projects/autohack-idle).
+Once you have an account, share your username with Joseph (or another Hyland mentor) to be added as a collaborator to the [repository](https://github.com/hto-projects/hytop).
 
 ### Local Account Configuration
 In order to commit locally, you will need to properly configure your account on your computer. In the command line, you can use these commands to set your name and email:
@@ -22,17 +22,17 @@ Be sure to replace `FIRST_NAME LAST_NAME` with your first & last name, and repla
 In order to push changes to the remote repository, you will need to authenticate yourself. You should be prompted to sign in the first time you attempt to push. After that, it should save your authentication information for any future pushes.
 
 ## Starting from an Issue
-For every piece of development work, there should be a corresponding issue on the [project board](https://github.com/orgs/hto-projects/projects/5). If you are working on an issue, you should be assigned under the "Assignees" field:
+For every piece of development work, there should be a corresponding issue on the [project board](https://github.com/orgs/hto-projects/projects/8). If you are working on an issue, you should be assigned under the "Assignees" field:
 
 ![](Assets/GitHubIssueAssignee.png)
 
 ### Creating Your Own Issue
 As the project progresses, you will have the opportunity to create your own issues.
 
-1. Open the [board](https://github.com/orgs/hto-projects/projects/5)
+1. Open the [board](https://github.com/orgs/hto-projects/projects/8)
 1. Click the "+ Add item" link under the appropriate column  
     ![](Assets/GitHubBoardAddItem.png)
-1. Type in a hashtag (`#`) and select **autohack-idle**  
+1. Type in a hashtag (`#`) and select **hytop**  
     ![](Assets/GitHubBoardSelectRepo.png)
 1. Click "Create new issue"  
     ![](Assets/GitHubBoardCreateIssue.png)
@@ -48,13 +48,13 @@ Now you have an issue ready for development.
 ## Creating a Feature Branch
 Once you have an issue and it has been properly assigned to you,  it's time to start working on it. Work will be done in a feature branch.
 
-1. Open the [board](https://github.com/orgs/hto-projects/projects/5)
-1. When you're ready to work, drag the issue into the "In Progress" column  
+1. Open the [board](https://github.com/orgs/hto-projects/projects/8)
+2. When you're ready to work, drag the issue into the "In Progress" column  
     ![](Assets/GitHubBoardMoveToInProgress.png)
-1. Click the issue to open it
-1. Click the "Create a branch" link in the bottom right of the issue view  
+3. Click the issue to open it
+4. Click the "Create a branch" link in the bottom right of the issue view  
     ![](Assets/GitHubIssueCreateBranch.png)
-1. Click the "Create branch" button in the pop-up  
+5. Click the "Create branch" button in the pop-up  
     ![](Assets/GitHubIssueBranchCreate.png)
 
 Now your feature branch is ready for development.
@@ -64,7 +64,7 @@ Right after you create the branch, some terminal commands should pop up; these w
 
 >Note: Make sure to [stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash) any in-progress changes before checking out a new branch!
 
-1. Open the AUTOHACK IDLE project in VS Code
+1. Open the HyTOP project in VS Code
 1. Open a new terminal with `Ctrl`+`\``
 1. There, enter the first command: `git fetch`  
     - This grabs the latest version of the remote repository
@@ -80,7 +80,7 @@ The next step is to actually change the code in the files for the issue. Once yo
 ## Pushing to the Remote Feature Branch
 Once changes are committed (i.e., saved) to your local branch, it's time to push them up to the remote feature branch. This is possible using the VS Code GUI, or simply the `git push` command. Depending on how your branch was created, it may be necessary to [set the upstream](https://stackoverflow.com/questions/18031946/when-doing-a-git-push-what-does-set-upstream-do) so your local feature branch properly points to the remote feature branch.
 
-This will also require user confirguration and authentication, as well as proper collaborator status within the repository - so make sure to share your GitHub username with the mentors, and use your credentials to push!
+This will also require user configuration and authentication, as well as proper collaborator status within the repository - so make sure to share your GitHub username with the mentors, and use your credentials to push!
 
 ## Pulling & Merging from the Main Branch
 Throughout the development process, you should constantly be pulling the latest version of the **main** branch and merging it into your feature branch. These commands can accomplish this:
@@ -97,7 +97,7 @@ Depending on the situation, you also might want to rebase. [There are a lot of t
 ## Creating a Pull Request
 Finally, when all the code for your change is up on the remote feature branch, you're ready to submit a pull request. This can be done through the GitHub Web interface in a number of ways.
 
-1. Visit the [compare page](https://github.com/hto-projects/autohack-idle/compare) for the repository
+1. Visit the [compare page](https://github.com/hto-projects/hytop/compare) for the repository
 1. Set **main** as the "base", and your feature branch as the "compare"
 1. Review the changes and make sure they look good
 1. Click the "Create pull request" button

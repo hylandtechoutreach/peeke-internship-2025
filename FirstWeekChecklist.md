@@ -6,7 +6,6 @@ _gotta check 'em all!_
   <input type="checkbox" id="item2"> Change your desktop background<br>
   <input type="checkbox" id="item3"> Play a game of ping pong<br>
   <input type="checkbox" id="item4"> Watch a video from the Fun Things page<br>
-  <input type="checkbox" id="item5"> Add a song to the team playlist<br>
   <input type="checkbox" id="item6"> Complete one of the learning path items<br>
   <input type="checkbox" id="item7"> Work somewhere other than your desk<br>
   <input type="checkbox" id="item8"> Send an email from your work account<br>

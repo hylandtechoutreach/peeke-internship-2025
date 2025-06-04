@@ -100,7 +100,7 @@
                 <a href="./">
             
                     
-                    App Internship 2024
+                    Hyland PEEKE Internship 2025
             
                 </a>
             
@@ -199,19 +199,6 @@
             
                     
                     Contribution Guide
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.5" data-path="Language.html">
-            
-                <a href="Language.html">
-            
-                    
-                    Language
             
                 </a>
             
@@ -412,75 +399,44 @@
                                 
                                 <h1 id="architecture">Architecture</h1>
 <p>This guide contains an overview of the architecture for the application.</p>
+<h2 id="overview">Overview</h2>
+<p>HyTOP is a fairly standard full-stack web application. It&apos;s split up into two main parts: the <strong>frontend</strong> and the <strong>backend</strong>. This is kind of like at a restaurant, with the front of house and back of house.</p>
+<p>The <strong>frontend</strong> is everything the people see. The <strong>backend</strong> is everything that happens behind the scenes. The frontend has the user interface, and the backend has the database. They communicate through HTTP.</p>
 <h2 id="shared">Shared</h2>
 <p>Some pieces of the application are shared by both the frontend and the backend. This is especially important when the frontend and backend need to use the same types variables and objects.</p>
 <h3 id="types">Types</h3>
-<p>The <strong>shared/types.ts</strong> file contains the types for the data within the application. Actually, it only has <a href="https://www.typescriptlang.org/docs/handbook/enums.html" target="_blank"><code>enum</code></a> and <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><code>interface</code></a> declarations, but these are used to ensure the data is in the proper form everywhere.</p>
-<p>As an example, the game data stores the number of bits collected, the amount of currency earned, the user&apos;s email, and a list of owned upgrades. This is done with the <code>IGameData</code> interface.</p>
-<h3 id="utility-functions">Utility Functions</h3>
-<p>The <strong>shared/util.ts</strong> file contains some helper functions that can be utilized throughout the application:</p>
-<ul>
-<li>The <code>pluck</code> function takes an array and a predicate function, and removes one value from the array that satisfies the predicate</li>
-<li>The <code>runMod</code> function takes a variable value and modifies it based on the value and mod function</li>
-<li>The <code>calculateVariableValue</code> function calculates the value of a game variable (like the likelihood of a bit appearing)</li>
-</ul>
-<h3 id="upgrades">Upgrades</h3>
-<p>The <code>IUpgrade</code> interface represents objects that are upgrades in the game (like the one that doubles the amount of bits that appear). Each upgrade has a name, description, cost, picture, and list of effects.</p>
-<p>Each effect is an <code>IUpgradeEffect</code>. These effects define a modification to one of the <code>GameVariable</code> values. They point to one of those variables, have a <code>VariableModFunction</code> to determine how the variable will be updated, and have a <code>modValue</code> to represent the amount of change. Here&apos;s an example of an upgrade from the <strong>shared/upgrades.ts</strong> file:</p>
-<pre><code class="lang-ts">{
-  name: <span class="hljs-string">&quot;Double Checks&quot;</span>,
-  description: <span class="hljs-string">&quot;Check for bits twice as often&quot;</span>,
-  picture: <span class="hljs-string">&quot;&#x1F50D;&#x1F50D;&quot;</span>,
-  cost: <span class="hljs-number">10</span>,
-  effects: [
-    {
-      variableAffected: GameVariable.BitCheckInterval,
-      variableMod: VariableModFunction.Multiply,
-      modValue: <span class="hljs-number">0.5</span>
-    }
-  ]
-}
-</code></pre>
-<p>It is named &quot;Double Checks&quot; and it costs 10 currency. When owned, it modifies the <code>BitCheckInterval</code> game variable - basically, how often the game should check for bits to appear. It uses the <code>Multiply</code> mod, and <code>0.5</code> as the <code>modValue</code> to split the amount in half. Effectively, this takes the normal &quot;once per second&quot; check and makes it &quot;once per half second&quot; instead.</p>
+<p>The <strong>shared/types.ts</strong> file contains the types for the data within the application. Actually, it only has <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><code>interface</code></a> declarations, but these are used to ensure the data is in the proper form everywhere.</p>
+<p>These pieces of code define the shape of the data for the application. Each project that is created has all of the things in each of the interfaces.</p>
 <h2 id="frontend">Frontend</h2>
-<p>The frontend of the application is built using <a href="https://react.dev/" target="_blank">React</a>, <a href="https://react-redux.js.org/" target="_blank">React Redux</a>, and <a href="https://phaser.io/" target="_blank">Phaser</a>.</p>
+<p>The frontend of the application is built using <a href="https://react.dev/" target="_blank">React</a> and <a href="https://react-redux.js.org/" target="_blank">React Redux</a>.</p>
 <h3 id="starting-point">Starting Point</h3>
 <p>The actual starting point is the <strong>frontend/index.html</strong> file - however, that file does not do much beyond including the <strong>frontend/src/main.tsx</strong> file:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;module&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/src/main.tsx&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
-<p>The <strong>main.tsx</strong> file is the main entry point into the actual React application. This file does not do anything too interesting - it does have a little router that is not currently used very much. The main thing it does is point the root (<code>&quot;/&quot;</code>) to the <strong>App.tsx</strong> file. The  important thing is the <code>ReactDOM.createRoot</code> - that renders the React application into the HTML. The interesting thing there is the <code>Provider</code> element:</p>
-<pre><code class="lang-tsx">&lt;Provider store={store}&gt;
-</code></pre>
-<p>That <code>store</code> is the React Redux store - basically, the thing that holds all of the data for the frontend.</p>
-<p>So, from there, there are two big things: the <code>&lt;App&gt;</code> component (from the <strong>App.tsx</strong> file), and the Redux <code>store</code> (from the <strong>store.ts</strong> file).</p>
+<p>The <strong>main.tsx</strong> file is the main entry point into the actual React application. This file does not do anything too interesting - it mainly contains the router for different pages in the app. The main thing it does is point the root (<code>&quot;/&quot;</code>) to the <strong>App.tsx</strong> file. The most important thing is the <code>ReactDOM.createRoot</code> - that renders the React application into the HTML.</p>
+<p>So, from there, there is one big thing: the <code>&lt;App&gt;</code> component (from the <strong>App.tsx</strong> file).</p>
 <h3 id="app">App</h3>
-<p>In the <strong>App.tsx</strong> file lives the <code>&lt;App&gt;</code> component. This is really the main HTML container for everything else in the game. It contains the actual <code>&lt;PhaserGame&gt;</code> component (the part that uses the Phaser library and has the bits appearing), as well as a <code>&lt;BoxContainer&gt;</code> that includes the left <code>&lt;Box&gt;</code> for auth and the right <code>&lt;Box&gt;</code> for game data.</p>
-<h3 id="store">Store</h3>
-<p>The game data is kind of magically distributed throughout the app using <a href="https://redux.js.org/" target="_blank">Redux</a>. There is quite a bit that goes into writing Redux code - it is recommended to read through some of the <a href="https://redux.js.org/tutorials/essentials/part-1-overview-concepts" target="_blank">essential concepts</a> and <a href="https://redux.js.org/tutorials/essentials/part-2-app-structure" target="_blank">structure</a>.</p>
-<p>The <strong>store.ts</strong> file stores the game data. It is in the form of the <code>IGameState</code> interface. This state is both loaded from and saved to <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank"><code>localStorage</code></a> using the <code>loadState</code> and <code>saveState</code> functions. That is what allows the application to persist data over time. The store sets up a subscription - basically, every time the state is updated, it&apos;s saved to <code>localStorage</code> using <code>saveState</code>. This happens at most once per second because of the <code>throttle</code>.</p>
-<p>The <code>configureStore</code> function sets up the store with the state (loaded from <code>localStorage</code>) and all the reducers from the slices (more on that next). </p>
-<h3 id="slices">Slices</h3>
-<p>In Redux, a <a href="https://redux.js.org/tutorials/essentials/part-2-app-structure#redux-slices" target="_blank">slice</a> is a collection of Redux reducer logic and actions for a single feature in the application. A reducer is basically a function that takes the current state and updates it based on an action that is occurring. There&apos;s quite a bit of slices that are doing things that are complex, but the important ones for basic gameplay are in the <strong>gameDataSlice.ts</strong> file and <strong>upgradesSlice.ts</strong> file within the <strong>slices/</strong> folder.</p>
-<p>These slices tell the game how to respond to certain actions. For example, the <code>addBits</code> reducer in the <code>gameDataSlice</code> takes the current state, and updates the number of bits in the game data based on the action payload. The <code>addBits</code> reducer is dispatched by the application at various points - these all come back to the store through the reducer, and the state is updated there.</p>
-<p>The <code>upgradesSlice</code> contains the available upgrades for purchase. Currently, it simply holds the basic starter upgrades - but as the game progresses, there may be upgrades that are revealed later.</p>
-<p>Ultimately, slices are the tools that allow the application to update the state of the application in a &quot;global&quot; way using Redux.</p>
+<p>In the <strong>App.tsx</strong> file lives the <code>&lt;App&gt;</code> component. This is really the main HTML container for everything else in the app.</p>
 <h3 id="components">Components</h3>
-<p>In React, a <a href="https://react.dev/learn/describing-the-ui#your-first-component" target="_blank">component</a> is an isolated piece of UI. Components are a lot like HTML Elements - in fact, they are represented in the same manner, using angle brackets like <code>&lt;ThisComponent&gt;&lt;/ThisComponent&gt;</code>. There are some components in the <strong>frontend/src/components/</strong> folder - all of which are meant to represent one small part of the larger game. The <code>&lt;App&gt;</code> component pulls in several of these components to make them work together.</p>
-<p>For example, the <code>&lt;AutoCollector&gt;</code> component is a little piece of UI to represent Al the Auto-Collector. It dispatches the <code>addBits</code> reducer to add bits based on the current interval, and it also displays the current rate of bit collection. A component is just a function that returns some JSX (basically HTML with JS or TS inside).</p>
+<p>In React, a <a href="https://react.dev/learn/describing-the-ui#your-first-component" target="_blank">component</a> is an isolated piece of UI. Components are a lot like HTML Elements - in fact, they are represented in the same manner, using angle brackets like <code>&lt;ThisComponent&gt;&lt;/ThisComponent&gt;</code>. There are some components in the <strong>frontend/src/components/</strong> folder - all of which are meant to represent one small part of the larger app. The components in the <strong>frontend/src/screens</strong> folder pull in several of these components to make them work together.</p>
+<p>For example, the <code>&lt;FileSelector&gt;</code> component is a little piece of UI to represent the left side of the screen where files are chosen. It lists out each file in the list, and calls a function when a new file is chosen. A component is just a function that returns some JSX (basically HTML with JS or TS inside).</p>
 <p>Several components use the <a href="https://react.dev/reference/react/useEffect" target="_blank"><code>useEffect</code> hook</a> - this allows the application to sync a component with an external system.</p>
-<h3 id="game">Game</h3>
-<p>The actual game, with the Phaser code, is connected from the <code>&lt;PhaserGame&gt;</code> component. The connection between React and Phaser is based on <a href="https://phaser.io/news/2024/03/phaser-3-and-react-typescript-template" target="_blank">this template</a>. Using both allows for much more powerful interactions - the gameplay can be fun and interactive, but React can keep track of the state and interact with the backend if needed. The biggest thing with the game is the <code>EventBus</code> - this tool allows the Phaser code to interact with the rest of the application.</p>
-<p>The actual Phaser stuff is configured in the <strong>frontend/src/game/main.ts</strong> file - that sets up the basic game, pointing to the scenes within the <strong>scenes/</strong> folder.</p>
-<p>Each scene in Phaser inherits from the <code>Scene</code> class. Within those classes (e.g., <code>Collect</code>), game components and interactions can be added. This is the main place to control the actual physical gameplay - Phaser can be used for graphical and physical gameplay, whereas React is more for state control and communication.</p>
+<h3 id="slices">Slices</h3>
+<p>Slices are really weird. For the purposes of this application, they are mainly the way that the frontend asks for things from the backend. For example, if someone using the app wants to pull up a certain project, the frontend has to call up the backend and say &quot;this person wants to see this project.&quot; The backend will check the database and send back the proper information.</p>
 <h2 id="backend">Backend</h2>
-<p>For now, don&apos;t worry too much about the backend. Ultimately, the backend will allow players to save their game data in the cloud, as well as present collectibles.</p>
-<h2 id="actual-hacking">Actual Hacking</h2>
-<p>Some intrepid young game players may want to <em>actually</em> hack the game instead of the pseudo-hacking built into the game. Ideally, there would be layers of security in place to prevent them from doing so. However, if the game is to be accessible offline (e.g., without a server or database), verifying their actual progress could be incredibly difficult. Most of the gameplay almost inherently <em>has</em> to be hackable. However, the players should also have their own accounts and be able to represent themselves and their progress <em>without</em> fear of being hacked by other players. Thus, the overall philosophy regarding hacking is this:</p>
-<p><strong>There will be no protections against hacking the basic gameplay of the application, but user information and &quot;Collectibles&quot; will be secure in the backend.</strong></p>
-<p>The basic gameplay includes things like the number of bits, currency amount, upgrades, achievements, and more. It may be very easy for players to open up <code>localStorage</code> in their web browser and change the numbers around - but really, it&apos;s all for fun anyway, so that&apos;s fine.</p>
-<p>The user information, like username, password, profile, and collected items, can remain behind the security of authentication. This will hopefully create a community economy in which unhackable user data holds much more weight than amount of in-game data or in-game currency.</p>
-<p>Essentially, a user can &quot;hack&quot; whatever garbage they want into their saved game data - it is not worth preventing this from happening. However, they will <strong>not</strong> be able to &quot;hack&quot; a new collectible item into their showcase, or &quot;hack&quot; another player&apos;s user information.</p>
-<p>Overall, this should make it much easier to work with game data offline, while still encouraging players to create accounts, collect collectibles, and connect with other players.</p>
+<p>The primary purpose of the backend is to work with the data from the MongoDB database. The <strong>server.ts</strong> file create the backend web server, and puts everything all together.</p>
+<h3 id="configdbts">config/db.ts</h3>
+<p>This file connects to the MongoDB database.</p>
+<h3 id="controllers">controllers/*</h3>
+<p>This folder contains files that control each type of data. There are functions defined for each type of request the frontend might make. For example, the <code>findProject</code> function will check the database to see if a project exists, and return the content.</p>
+<h3 id="middleware">middleware/*</h3>
+<p>This folder contains stuff that goes in between the frontend request and the backend logic.</p>
+<h3 id="models">models/*</h3>
+<p>This folder contains each type of data object. It tells the database how to store these different types of objects. For example, each project has a name - this is in the <strong>projectModel.ts</strong> file, with the <code>projectSchema</code> object, and the <code>projectName</code> property.</p>
+<h3 id="routes">routes/*</h3>
+<p>This folder contains mappings for requests. Basically, it tells the backend where to route messages from the frontend. For example, if the frontend says &quot;I want to <code>create/</code> a project,&quot; the <strong>projectRoutes.ts</strong> file ensures that the <code>createProject</code> function will be called.</p>
+<h3 id="starters">starters/*</h3>
+<p>This folder contains some actual starter projects, using HTML, CSS, and JavaScript. The application is able to access this code, and send it for certain projects.</p>
 
                                 
                                 </section>
@@ -524,7 +480,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Architecture","level":"1.3.2","depth":2,"next":{"title":"Team Workflow","level":"1.3.3","depth":2,"path":"TeamWorkflow.md","ref":"TeamWorkflow.md","articles":[]},"previous":{"title":"Technologies","level":"1.3.1","depth":2,"path":"Technologies.md","ref":"Technologies.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Hyland PEEKE Internship 2025","gitbook":"*"},"file":{"path":"Architecture.md","mtime":"2025-06-04T18:08:53.262Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-04T18:09:23.257Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Architecture","level":"1.3.2","depth":2,"next":{"title":"Team Workflow","level":"1.3.3","depth":2,"path":"TeamWorkflow.md","ref":"TeamWorkflow.md","articles":[]},"previous":{"title":"Technologies","level":"1.3.1","depth":2,"path":"Technologies.md","ref":"Technologies.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Hyland PEEKE Internship 2025","gitbook":"*"},"file":{"path":"Architecture.md","mtime":"2025-06-04T20:36:17.929Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-04T20:36:46.546Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

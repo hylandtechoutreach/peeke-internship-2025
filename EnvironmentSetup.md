@@ -11,17 +11,17 @@ VS Code is a lightweight code editor with lots of powerful features. [Click here
 Node.js is a JavaScript runtime that lets developers create web servers. The backend of the AUTOHACK IDLE project runs on Node.js. [Click here to download the installer.](https://nodejs.org/en/download/prebuilt-installer) Note that **npm** (**n**ode **p**ackage **m**anager) should also be installed as part of the Node.js installation.
 
 ### Git
-Git is a version control system. The AUTOHACK IDLE codebase is stored in a Git repository on GitHub. [Click here to download & install Git.](https://gitforwindows.org/) Note that **Git BASH**, a command line shell, should also be installed as part of the Git for Windows installation.
+Git is a version control system. The HyTOP codebase is stored in a Git repository on GitHub. [Click here to download & install Git.](https://gitforwindows.org/) Note that **Git BASH**, a command line shell, should also be installed as part of the Git for Windows installation.
 
 >**IMPORTANT NOTE:** You may have to run the installer as an administrator. Right click from the file explorer to see that option.
 
 ## Running the App
-Once the above tools have been installed, it's time to run the app. The codebase lives in this GitHub repository: [https://github.com/hto-projects/autohack-idle](https://github.com/hto-projects/autohack-idle)
+Once the above tools have been installed, it's time to run the app. The codebase lives in this GitHub repository: [https://github.com/hto-projects/hytop](https://github.com/hto-projects/hytop)
 
 ### Getting the Code
 Follow these steps to properly grab the code for the project from GitHub:
 
-1. [Go to the repository on the web](https://github.com/hto-projects/autohack-idle)
+1. [Go to the repository on the web](https://github.com/hto-projects/hytop)
 1. Click the green **<> Code** button in the upper right
 1. Copy the **HTTPS** URL
 1. Open VS Code
@@ -104,7 +104,7 @@ Once the connection string has been obtained, it will need to live in a **.env**
 1. Find the **.env-example** file in the codebase
 1. Rename it to **.env**
 1. Replace `YOUR_URI_HERE` with the copied connection string
-1. Replace `YOUR_DBNAME_HERE` with any name desired (e.g., `ahi-local`)
+1. Replace `YOUR_DBNAME_HERE` with any name desired (e.g., `hytop-local`)
 
 Once that environment has been setup, run the application again using `npm run dev`. It should actually be connected to your database!
 

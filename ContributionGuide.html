@@ -63,7 +63,7 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Language.html" />
+    <link rel="next" href="SummerSchedule.html" />
     
     
     <link rel="prev" href="TeamWorkflow.html" />
@@ -100,7 +100,7 @@
                 <a href="./">
             
                     
-                    App Internship 2024
+                    Hyland PEEKE Internship 2025
             
                 </a>
             
@@ -199,19 +199,6 @@
             
                     
                     Contribution Guide
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.5" data-path="Language.html">
-            
-                <a href="Language.html">
-            
-                    
-                    Language
             
                 </a>
             
@@ -417,7 +404,7 @@
 </blockquote>
 <h2 id="registering-for-a-github-account">Registering for a GitHub Account</h2>
 <p>The first thing you&apos;ll have to do is create a GitHub account. Go to <a href="https://github.com/signup/" target="_blank">github.com/signup</a>, and do what it says. For this project, use a personal email/account - this will ensure you have access beyond the timeframe of the summer.</p>
-<p>Once you have an account, share your username with Joseph (or another Hyland mentor) to be added as a collaborator to the <a href="https://github.com/hto-projects/autohack-idle" target="_blank">repository</a>.</p>
+<p>Once you have an account, share your username with Joseph (or another Hyland mentor) to be added as a collaborator to the <a href="https://github.com/hto-projects/hytop" target="_blank">repository</a>.</p>
 <h3 id="local-account-configuration">Local Account Configuration</h3>
 <p>In order to commit locally, you will need to properly configure your account on your computer. In the command line, you can use these commands to set your name and email:</p>
 <pre><code>git config --global user.name &quot;FIRST_NAME LAST_NAME&quot;
@@ -426,14 +413,14 @@ git config --global user.email &quot;MY_NAME@example.com&quot;
 <h3 id="authentication">Authentication</h3>
 <p>In order to push changes to the remote repository, you will need to authenticate yourself. You should be prompted to sign in the first time you attempt to push. After that, it should save your authentication information for any future pushes.</p>
 <h2 id="starting-from-an-issue">Starting from an Issue</h2>
-<p>For every piece of development work, there should be a corresponding issue on the <a href="https://github.com/orgs/hto-projects/projects/5" target="_blank">project board</a>. If you are working on an issue, you should be assigned under the &quot;Assignees&quot; field:</p>
+<p>For every piece of development work, there should be a corresponding issue on the <a href="https://github.com/orgs/hto-projects/projects/8" target="_blank">project board</a>. If you are working on an issue, you should be assigned under the &quot;Assignees&quot; field:</p>
 <p><img src="Assets/GitHubIssueAssignee.png" alt=""></p>
 <h3 id="creating-your-own-issue">Creating Your Own Issue</h3>
 <p>As the project progresses, you will have the opportunity to create your own issues.</p>
 <ol>
-<li>Open the <a href="https://github.com/orgs/hto-projects/projects/5" target="_blank">board</a></li>
+<li>Open the <a href="https://github.com/orgs/hto-projects/projects/8" target="_blank">board</a></li>
 <li>Click the &quot;+ Add item&quot; link under the appropriate column<br> <img src="Assets/GitHubBoardAddItem.png" alt=""></li>
-<li>Type in a hashtag (<code>#</code>) and select <strong>autohack-idle</strong><br> <img src="Assets/GitHubBoardSelectRepo.png" alt=""></li>
+<li>Type in a hashtag (<code>#</code>) and select <strong>hytop</strong><br> <img src="Assets/GitHubBoardSelectRepo.png" alt=""></li>
 <li>Click &quot;Create new issue&quot;<br> <img src="Assets/GitHubBoardCreateIssue.png" alt=""></li>
 <li>Enter a title and description<br> <img src="Assets/GitHubBoardIssueTitleDescription.png" alt=""></li>
 <li>Set yourself as the assignee<br> <img src="Assets/GitHubBoardIssueAssignee.png" alt=""></li>
@@ -443,7 +430,7 @@ git config --global user.email &quot;MY_NAME@example.com&quot;
 <h2 id="creating-a-feature-branch">Creating a Feature Branch</h2>
 <p>Once you have an issue and it has been properly assigned to you,  it&apos;s time to start working on it. Work will be done in a feature branch.</p>
 <ol>
-<li>Open the <a href="https://github.com/orgs/hto-projects/projects/5" target="_blank">board</a></li>
+<li>Open the <a href="https://github.com/orgs/hto-projects/projects/8" target="_blank">board</a></li>
 <li>When you&apos;re ready to work, drag the issue into the &quot;In Progress&quot; column<br> <img src="Assets/GitHubBoardMoveToInProgress.png" alt=""></li>
 <li>Click the issue to open it</li>
 <li>Click the &quot;Create a branch&quot; link in the bottom right of the issue view<br> <img src="Assets/GitHubIssueCreateBranch.png" alt=""></li>
@@ -456,7 +443,7 @@ git config --global user.email &quot;MY_NAME@example.com&quot;
 <p>Note: Make sure to <a href="https://www.atlassian.com/git/tutorials/saving-changes/git-stash" target="_blank">stash</a> any in-progress changes before checking out a new branch!</p>
 </blockquote>
 <ol>
-<li>Open the AUTOHACK IDLE project in VS Code</li>
+<li>Open the HyTOP project in VS Code</li>
 <li>Open a new terminal with <code>Ctrl</code>+```</li>
 <li>There, enter the first command: <code>git fetch</code>  <ul>
 <li>This grabs the latest version of the remote repository</li>
@@ -473,7 +460,7 @@ git config --global user.email &quot;MY_NAME@example.com&quot;
 <p>The next step is to actually change the code in the files for the issue. Once you&apos;ve made the changes and verified that the issue is resolved (to the best of your ability), you will want to <a href="https://www.atlassian.com/git/tutorials/saving-changes" target="_blank">add them and commit them</a> to your local branch.</p>
 <h2 id="pushing-to-the-remote-feature-branch">Pushing to the Remote Feature Branch</h2>
 <p>Once changes are committed (i.e., saved) to your local branch, it&apos;s time to push them up to the remote feature branch. This is possible using the VS Code GUI, or simply the <code>git push</code> command. Depending on how your branch was created, it may be necessary to <a href="https://stackoverflow.com/questions/18031946/when-doing-a-git-push-what-does-set-upstream-do" target="_blank">set the upstream</a> so your local feature branch properly points to the remote feature branch.</p>
-<p>This will also require user confirguration and authentication, as well as proper collaborator status within the repository - so make sure to share your GitHub username with the mentors, and use your credentials to push!</p>
+<p>This will also require user configuration and authentication, as well as proper collaborator status within the repository - so make sure to share your GitHub username with the mentors, and use your credentials to push!</p>
 <h2 id="pulling--merging-from-the-main-branch">Pulling &amp; Merging from the Main Branch</h2>
 <p>Throughout the development process, you should constantly be pulling the latest version of the <strong>main</strong> branch and merging it into your feature branch. These commands can accomplish this:</p>
 <pre><code class="lang-bash">git checkout main
@@ -485,7 +472,7 @@ git merge main
 <h2 id="creating-a-pull-request">Creating a Pull Request</h2>
 <p>Finally, when all the code for your change is up on the remote feature branch, you&apos;re ready to submit a pull request. This can be done through the GitHub Web interface in a number of ways.</p>
 <ol>
-<li>Visit the <a href="https://github.com/hto-projects/autohack-idle/compare" target="_blank">compare page</a> for the repository</li>
+<li>Visit the <a href="https://github.com/hto-projects/hytop/compare" target="_blank">compare page</a> for the repository</li>
 <li>Set <strong>main</strong> as the &quot;base&quot;, and your feature branch as the &quot;compare&quot;</li>
 <li>Review the changes and make sure they look good</li>
 <li>Click the &quot;Create pull request&quot; button</li>
@@ -531,7 +518,7 @@ git merge main
                 </a>
                 
                 
-                <a href="Language.html" class="navigation navigation-next " aria-label="Next page: Language">
+                <a href="SummerSchedule.html" class="navigation navigation-next " aria-label="Next page: Summer Schedule">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -542,7 +529,7 @@ git merge main
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Contribution Guide","level":"1.3.4","depth":2,"next":{"title":"Language","level":"1.3.5","depth":2,"path":"Language.md","ref":"Language.md","articles":[]},"previous":{"title":"Team Workflow","level":"1.3.3","depth":2,"path":"TeamWorkflow.md","ref":"TeamWorkflow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Hyland PEEKE Internship 2025","gitbook":"*"},"file":{"path":"ContributionGuide.md","mtime":"2025-06-04T18:08:53.269Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-04T18:09:23.257Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Contribution Guide","level":"1.3.4","depth":2,"next":{"title":"Summer Schedule","level":"1.4","depth":1,"path":"SummerSchedule.md","ref":"SummerSchedule.md","articles":[{"title":"Meeting Descriptions","level":"1.4.1","depth":2,"path":"MeetingDescriptions.md","ref":"MeetingDescriptions.md","articles":[]}]},"previous":{"title":"Team Workflow","level":"1.3.3","depth":2,"path":"TeamWorkflow.md","ref":"TeamWorkflow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Hyland PEEKE Internship 2025","gitbook":"*"},"file":{"path":"ContributionGuide.md","mtime":"2025-06-04T20:36:17.936Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-06-04T20:36:46.546Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

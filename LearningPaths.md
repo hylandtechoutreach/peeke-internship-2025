@@ -17,7 +17,6 @@ Check off these items as you complete them, or if you already have sufficient kn
 <input type="checkbox" id="mgs"> <a href="https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/">Mongoose</a><br>
 <input type="checkbox" id="rttt"> <a href="https://react.dev/learn/tutorial-tic-tac-toe">React: Tic-Tac-Toe</a><br>
 <input type="checkbox" id="rfull"> <a href="https://react.dev/learn/describing-the-ui">React: Full Introduction</a><br>
-<input type="checkbox" id="ph"> <a href="https://phaser.io/tutorials/making-your-first-phaser-3-game/part1">Phaser Introduction</a><br>
 <input type="checkbox" id="lgb"> <a href="https://learngitbranching.js.org/">Learn Git Branching</a><br>
 </ul>
 
@@ -92,13 +91,6 @@ The application also uses React Redux to store state. It can be helpful to learn
 
 - [Redux Overview](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 - [Quick Start with React/TypeScript](https://react-redux.js.org/tutorials/typescript-quick-start)
-
-## Frontend Game Development: Phaser
-In addition to React, the frontend will use the Phaser game development framework. There is a complete [compendium of learning resources](https://phaser.io/learn) available, which includes some particularly helpful links:
-
-- [Making a Game](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1)
-- [Examples](https://labs.phaser.io/)
-- [Phaser with Redux](https://phaser.io/news/2021/07/an-architecture-for-phaser-js-+-redux)
 
 ## Version Control with Git
 Though not directly related to coding, version control is a huge part of software development. Learn a bit about Git and GitHub before diving into using them. This project will use [trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development), which means team members will create small feature branches when they develop, and then merge them into the **main** branch as often as possible.

@@ -1,4 +1,4 @@
-- [App Internship 2024](Home.md)
+- [Hyland PEEKE Internship 2025](Home.md)
 - [Internship Overview](InternshipOverview.md)
   - [First Week Checklist](FirstWeekChecklist.md)
 - [Project Information](ProjectInformation.md)
@@ -6,7 +6,6 @@
   - [Architecture](Architecture.md)
   - [Team Workflow](TeamWorkflow.md)
   - [Contribution Guide](ContributionGuide.md)
-  - [Language](Language.md)
 - [Summer Schedule](SummerSchedule.md)
   - [Meeting Descriptions](MeetingDescriptions.md)
 - [Environment Setup](EnvironmentSetup.md)

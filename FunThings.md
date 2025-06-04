@@ -8,7 +8,6 @@ There are several opportunities to have some fun at Hyland HQ!
 - Pickleball court
 - Putting green
 - Basketball courts (indoor and outdoor)
-- Free lunch every third thursday of the month
 - Game room with ping pong, air hockey, and more
 - Fancy drinks from the cafe
 
@@ -45,6 +44,3 @@ If you have some downtime, here are some ideas for other things to do:
 
 ## Generative A.I.
 [Click here to see more about how generative A.I. can be used throughout the summer.](GenAi.md)
-
-## 2024 App Project Team Spotify Playlist
-[AHI SUMMER](https://open.spotify.com/playlist/6ZRCVhz8SQP6eWj2wKy4dZ?si=94249b51f06b49e7&pt=c96d61e1fcc9e094a4cc40959d3e3cef)

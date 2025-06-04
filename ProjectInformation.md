@@ -1,5 +1,5 @@
-# AUTOHACK IDLE
-_an incremental game for lazy coders_
+# HYLAND TECH OUTREACH PORTAL (HyTOP)
+_an online IDE for Hyland Tech Outreach programs_
 
 ## Description
 This application will help students learn to code while providing a fun and engaging game experience. Taking inspiration from incremental games like [Cookie Clicker](https://en.wikipedia.org/wiki/Cookie_Clicker), [AdVenture Capitalist](https://en.wikipedia.org/wiki/AdVenture_Capitalist), [Idle Slayer](https://idleslayer.com/), and [Candy Box](https://candybox2.github.io/candybox/), the game will encourage players to return on a regular basis to build up their hoard of data AND their programming acumen.
@@ -64,10 +64,10 @@ Ultimately, the vision for the game will be determined by the intern team.
 
 ## GitHub
 The codebase is stored in this GitHub Repository:  
-[https://github.com/hto-projects/autohack-idle](https://github.com/hto-projects/autohack-idle)
+[https://github.com/hto-projects/hytop](https://github.com/hto-projects/hytop)
 
 Issues will be tracked in this GitHub Project:  
-[https://github.com/orgs/hto-projects/projects/5/views/1](https://github.com/orgs/hto-projects/projects/5/views/1)
+[https://github.com/orgs/hto-projects/projects/8](https://github.com/orgs/hto-projects/projects/8)
 
 ## Current State
 Currently, the game does not do much. There is a lot of work to be done.

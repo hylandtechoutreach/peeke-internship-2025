@@ -23,7 +23,7 @@ _gotta check 'em all!_
 </ul>
 
 <script>
-  // store checks
+  // store checked boxes
   document.querySelectorAll("input").forEach(inputElement => {
     const elementId = `${inputElement.id}`;
 

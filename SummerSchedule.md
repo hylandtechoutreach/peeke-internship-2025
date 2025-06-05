@@ -4,7 +4,7 @@ Here are the scheduled meetings for the summer. [Click here for descriptions of 
 #### Note: General Working Hours
 The hope is that each intern will be generally available to work Tuesdays, Wednesdays, and Thursdays from 9am-5pm throughout the summer.
 
-Each working day, there will be a stand-up meeting starting at 9:30am.
+Each working day, there will be a stand-up meeting starting at 10:30am.
 
 ## Week 1: 6/8-6/14
 The goal for this week is for each intern to complete the **First Week Checklist**.
@@ -22,7 +22,7 @@ The goal for this week is for the team to continue their development. _Note: Hyl
 The goal for this week is to continue development, with sights set on the end of the internship. _Note: Joseph will be attending the CSTA conference this week._
 
 ## Week 6: 7/13-7/19
-The goal for this week is to continue development. _Note: Y.O.U. has training on **7/16**.
+The goal for this week is to continue development. _Note: Y.O.U. has training on **7/16**._
 
 ## Week 7: 7/20-7/26
 The goal for this week is to continue development, and start preparing for the final demo.

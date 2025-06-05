@@ -2,7 +2,7 @@
 Throughout the summer, there will be several meetings that serve a variety of purposes.
 
 ## Daily Stand-Up Meetings
-These meetings, occurring every Tuesday, Wednesday, and Thursday at 9:30am, serve to assemble the team and ensure work is aligned across team members. Each team member should share:
+These meetings, occurring every Tuesday, Wednesday, and Thursday at 10:30am, serve to assemble the team and ensure work is aligned across team members. Each team member should share:
 
 - What they did during the previous day of work
 - What they plan to do today

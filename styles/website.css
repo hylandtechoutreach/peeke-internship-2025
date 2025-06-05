@@ -8,7 +8,7 @@
   font-display: swap;
 }
 
-* {
+body, a, p {
   font-family: "Inter", "Helvetica", "Arial", "sans-serif";
 }
 

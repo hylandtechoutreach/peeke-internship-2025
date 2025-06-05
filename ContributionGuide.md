@@ -32,7 +32,7 @@ As the project progresses, you will have the opportunity to create your own issu
 1. Open the [board](https://github.com/orgs/hto-projects/projects/8)
 1. Click the "+ Add item" link under the appropriate column  
     ![](Assets/GitHubBoardAddItem.png)
-1. Type in a hashtag (`#`) and select **hytop**  
+1. Type in a hashtag (`#`) and select the proper repo (in this case: **hytop**)  
     ![](Assets/GitHubBoardSelectRepo.png)
 1. Click "Create new issue"  
     ![](Assets/GitHubBoardCreateIssue.png)
@@ -65,7 +65,7 @@ Right after you create the branch, some terminal commands should pop up; these w
 >Note: Make sure to [stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash) any in-progress changes before checking out a new branch!
 
 1. Open the HyTOP project in VS Code
-1. Open a new terminal with `Ctrl`+`\``
+1. Open a new terminal with `Ctrl`+`&grave;`
 1. There, enter the first command: `git fetch`  
     - This grabs the latest version of the remote repository
 1. Next, enter the second command: `git checkout BRANCH_NAME`  

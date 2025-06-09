@@ -4,16 +4,7 @@ Hyland has official [guidelines](https://pages.hyland.com/HRPortal/Policies/CONF
 There is also a [council](https://hyland.atlassian.net/wiki/spaces/GA/pages/875397256/Governance+-+Generative+AI) that governs the use of generative A.I. across Hyland.
 
 ## Approved Uses
-Publicly-available GenAI tools (like [ChatGPT](https://chatgpt.com/)) can come in handy. Some key use cases may be helpful for this project:
-
-- Generate first drafts of materials for internal use (e.g., planning, presentations)
-- Generate code or scripts strictly for internal use
-- Conduct preliminary research (all of which must be verified)
-- Assist with brainstorming ideas (for game design, code, or other things)
-- Explain existing code in the codebase
-- Provide guidance along the [learning paths](LearningPaths.md)
-
-The key to A.I.-generated content is that it is only a starting point - everything must be double checked through a layer of human intelligence and ingenuity.
+Approved uses of publicly-available tools are currently under review.
 
 ## Other A.I. Tools
 There are [several approved tools](https://hyland.atlassian.net/wiki/spaces/GA/pages/928055311/Approved+Use+Cases) available, some of which may be more useful than others:

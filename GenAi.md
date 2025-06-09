@@ -1,5 +1,5 @@
 # Generative A.I.
-Hyland has some official [guidelines](https://pages.hyland.com/HRPortal/Policies/CONFIDENTIAL-INFORMATION-DATA-SECURITY-POLICIES/Information-Systems-Security-Policy-ISSP/Hyland-Generative-AI-Guidelines) about how to use generative A.I. in the workplace. Be sure to read the guidelines thoroughly before utilizing any type of A.I. tool.
+Hyland has official [guidelines](https://pages.hyland.com/HRPortal/Policies/CONFIDENTIAL-INFORMATION-DATA-SECURITY-POLICIES/Information-Systems-Security-Policy-ISSP/Hyland-Generative-AI-Guidelines) about how to use generative A.I. in the workplace. Be sure to read the guidelines thoroughly before utilizing any type of A.I. tool.
 
 There is also a [council](https://hyland.atlassian.net/wiki/spaces/GA/pages/875397256/Governance+-+Generative+AI) that governs the use of generative A.I. across Hyland.
 

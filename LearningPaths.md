@@ -7,6 +7,9 @@ Note that it is not necessary to have a full grasp of all of these concepts to s
 Check off these items as you complete them, or if you already have sufficient knowledge:
 
 <ul style="list-style-type: none">
+<input type="checkbox" id="html"> <a href="https://www.w3schools.com/html/">HTML Tutorial</a><br>
+<input type="checkbox" id="css"> <a href="https://www.w3schools.com/css/">CSS Tutorial</a><br>
+<input type="checkbox" id="js-1"> <a href="https://www.w3schools.com/js/">JavaScript Tutorial (Simpler)</a><br>
 <input type="checkbox" id="js"> <a href="https://javascript.info/">JavaScript Tutorial</a><br>
 <input type="checkbox" id="ts"> <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html">TypeScript Introduction</a><br>
 <input type="checkbox" id="ts-hb"> <a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a><br>
@@ -36,6 +39,13 @@ Check off these items as you complete them, or if you already have sufficient kn
 </script>
 
 More information about these resources is available below.
+
+## HTML, CSS, and JavaScript
+To get started with HTML, CSS, and JavaScript, we recommend these tutorials. They are a little simpler than the more advanced ones, and should be a good starting point.
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/)
 
 ## JavaScript & TypeScript
 The most important building block for this entire project is JavaScript. The project is written in TypeScript, but most of it looks like JavaScript.
